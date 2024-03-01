@@ -1,39 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    padding: 1%;
+    padding: 3rem;
     font-size: 2rem;
     font-family: "Anta", sans-serif;
 }
 
 a {
-    cursor: pointer;
     color: inherit;
+
+    &:hover, &:focus {
+        color: blue;
+        text-decoration: none;
+    }
+
+    &:active {
+        color: red;
+    }
 }
 
-a:hover,
-a:focus {
-    color: red;
-    text-decoration: none;
-}
+p {
+    line-height: 4rem;
 
-a:visited {
-    color: purple;
-}
-
-a:visited:hover,
-a:visited:focus {
-    color: blue;
-}
-
-a:active {
-    color: green;
-}
-
-u:hover {
-    color: green;
-}
-
-p span {
-    text-decoration: underline;
+    span {
+        padding: 0.5rem;
+        border: 2px solid;
+        border-radius: 3rem;
+    }
 }
