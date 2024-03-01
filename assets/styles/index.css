@@ -1,0 +1,31 @@
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+a:hover,
+a:focus {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:visited:hover,
+a:visited:focus {
+    color: blue;
+}
+
+a:active {
+    color: green;
+}
+
+u:hover {
+    color: green;
+}
+
+p span {
+    text-decoration: underline;
+}

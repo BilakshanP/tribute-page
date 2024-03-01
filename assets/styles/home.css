@@ -1,31 +1,33 @@
-body{
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(246, 239, 213);
 }
+
 .categories {
     display:flex    ;
     justify-content: space-between;
     width: 80%;
     position: center;
     margin: 0% 10%;
-  }
+}
   
 .how-it-works-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+}
   
 .how-it-works-item {
     margin-bottom: 10px;
-  }
+}
   
 .description-container {
     width: 60%;
-  }
+}
   
 .description-item {
     margin-bottom: 30px;
-  }
+}
 
 img{ 
     display: inline-block;
