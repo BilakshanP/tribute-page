@@ -1,39 +1,26 @@
 body{
-    background-color: rgb(246, 239, 213);
+  background-color: rgb(246, 239, 213);
+}
+.header{
+  height: 100px;
+  width: 100%;
+  background-image: linear-gradient(rgb(2 ,2,255),rgb(2, 154, 255),rgb(0,255,0));
+  margin: 0%;
 }
 .categories {
-    display:flex    ;
+    display:inline-block;
     justify-content: space-between;
     width: 80%;
     position: center;
     margin: 0% 10%;
   }
   
-.how-it-works-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-.how-it-works-item {
-    margin-bottom: 10px;
-  }
-  
-.description-container {
-    width: 60%;
-  }
-  
-.description-item {
-    margin-bottom: 30px;
-  }
-
 img{ 
-    display: inline-block;
-    height: 10%;
-    width: 10%;
-    border: 5px solid;
+    height: 20%;
+    width: 20%;
+    border: 9px solid;
     border-color: var(--sp-c);
     border-radius: 100%;
-    margin: 0% 5%;
+    margin: 5% 5%;
 
 }
