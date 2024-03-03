@@ -119,7 +119,7 @@ body {
 }
 
 .menu-background-image {
-    background-image: url("bg2.jpg");
+    background-image: url("./bg2.jpg");
     background-position: center 40%;
     background-size: 110vmax;
     height: 100%;
