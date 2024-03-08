@@ -40,6 +40,12 @@ li {
     }
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    user-select: all;
+}
+
 .menu-background-pattern {
     background-image: radial-gradient(rgba(255, 255, 255, 0.1) 10%, transparent 10%);
     background-position: 0% 0%;
