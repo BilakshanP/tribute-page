@@ -9,6 +9,51 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+li {
+    list-style: none;
+    user-select: all;
+
+    &:hover {
+        list-style: disc;
+    }
+
+    &:nth-child(1):hover {
+        text-shadow: 0 0 20px rgb(255, 99, 71);
+    }
+
+    &:nth-child(2):hover {
+        text-shadow: 0 0 20px rgb(255, 215, 0);
+    }
+
+    &:nth-child(3):hover {
+        text-shadow: 0 0 20px rgb(0, 255, 127);
+    }
+
+    &:nth-child(4):hover {
+        text-shadow: 0 0 20px rgb(0, 191, 255);
+    }
+
+    &:nth-child(5):hover {
+        text-shadow: 0 0 20px rgb(255, 20, 148);
+    }
+}
+
+.menu-background-pattern {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.1) 10%, transparent 10%);
+    background-position: 0% 0%;
+    background-size: 12vmin 12vmin;
+    height: 100vh;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    transition:
+        opacity 800ms ease,
+        background-size 800ms ease,
+        background-position 800ms ease;
+    width: 100vw;
+    z-index: 1;
+}
+
 #menu {
     align-items: center;
     display: flex;
@@ -18,6 +63,8 @@ body {
     &[data-active-index="0"] {
         > .menu-background-pattern {
             background-position: 0% -20%;
+            background-image: none;
+
         }
 
         > .menu-background-image {
@@ -64,22 +111,6 @@ body {
             background-position: center 60%;
         }
     }
-}
-
-.menu-background-pattern {
-    background-image: radial-gradient(rgba(255, 255, 255, 0.1) 9%, transparent 9%);
-    background-position: 0% 0%;
-    background-size: 12vmin 12vmin;
-    height: 100vh;
-    left: 0px;
-    position: absolute;
-    top: 0px;
-    transition:
-        opacity 800ms ease,
-        background-size 800ms ease,
-        background-position 800ms ease;
-    width: 100vw;
-    z-index: 1;
 }
 
 .menu-item {
@@ -133,35 +164,6 @@ body {
         background-position 800ms ease;
     width: 100%;
     z-index: 0;
-}
-
-li {
-    list-style: none;
-    user-select: all;
-
-    &:hover {
-        list-style: disc;
-    }
-    
-    &:nth-child(1):hover {
-        text-shadow: 0 0 20px rgba(255, 99, 71, 0.8);
-    }
-    
-    &:nth-child(2):hover {
-        text-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
-    }
-    
-    &:nth-child(3):hover {
-        text-shadow: 0 0 20px rgba(0, 255, 127, 0.8);
-    }
-    
-    &:nth-child(4):hover {
-        text-shadow: 0 0 20px rgba(0, 191, 255, 0.8);
-    }
-    
-    &:nth-child(5):hover {
-        text-shadow: 0 0 20px rgba(255, 20, 147, 0.8);
-    }
 }
 
 /* -- YouTube Link Styles -- */
