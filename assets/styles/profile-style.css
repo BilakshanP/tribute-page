@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(221, 203, 151);
+    background-color:#4bb17ecc;
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
@@ -35,24 +35,39 @@ body{
 
 .pfp{
     border-radius: 50%;
-    outline: 8px solid #00bfffcc;
     outline-offset: 8px;
 }
 
 .RHS{
     margin-top: 10vw;
-
-
 }
 .LHS{
     margin-top: 7vw;
     margin-left: 10vw;
     overflow-wrap:normal;
 }
+
+.contentalt{
+    width: 100%;
+    height: auto;
+    background-color:  rgb(220, 217, 189);
+    padding: 5em;
+}
+
+p{
+    width: 90%;
+}
+.content{
+    width: 100%;
+    height: auto;
+    
+    padding: 5em;
+}
 .Profile{
     display: flex;
     margin: auto;
     width: 70%;
+    margin-bottom: 5em;
 }
 .gist{
     text-align: center;
