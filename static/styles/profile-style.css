@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(221, 203, 151);
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+.header {
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(52, 52, 52);
+    display: inline-block;
+}
+.search-icon{
+    height: 5vh;
+    width: auto;
+    margin-top: 3vh;
+    display: block;
+    margin-right: 5vw;
+    float: right;
+}
+.sitelogo{
+    height: 10vh;
+    width: auto;
+    margin-left: 2%;
+    margin-top: 1vh;
+}
+.sitelogo:hover{
+    cursor: pointer;;
+}
+
+.search-icon:hover {
+    cursor: pointer;
+}
+
+.pfp{
+    border-radius: 50%;
+    outline: 8px solid #00bfffcc;
+    outline-offset: 8px;
+}
+
+.RHS{
+    margin-top: 10vw;
+
+
+}
+.LHS{
+    margin-top: 7vw;
+    margin-left: 10vw;
+    overflow-wrap:normal;
+}
+.Profile{
+    display: flex;
+    margin: auto;
+    width: 70%;
+}
+.gist{
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(52, 52, 52);
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding-left: 5vw;
+    padding-top: 2vw;
+    /* padding-bottom: 2vw; */
+    padding-bottom: 5vw;
+}
+ul{
+    color: white;
+}
+
+.subsAndSocial{
+    color: white;
+    text-align: center;
+}
+
+#Email{
+    border-radius: 25px;
+    border: 2px solid rgb(221, 203, 151);
+    padding: 20px; 
+    width: 200px;
+    height: 6px; 
+    background-color: rgb(52, 52, 52);
+    color: rgb(221, 203, 151);
+    margin-bottom: 10px;
+}
+.abtUS{
+    text-decoration: none;
+    color:rgb(221, 203, 151);
+    text-align: middle;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
