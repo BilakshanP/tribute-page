@@ -55,7 +55,11 @@ def root(request: HttpRequest):
 #     return render(request, 'static_test/test.html', {})
 
 def profile(request: HttpRequest, occupation: str, filename: str):
+    print(occupation, filename)
+
     file_path = os.path.join("data", occupation, f"{filename}.json")
+
+    print(file_path)
 
     try:
         with open(file_path, "r") as file:
