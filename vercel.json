@@ -3,7 +3,7 @@
         "src": "tributepage/wsgi.py",
         "use": "@natanffs/vercel-python-wsgi",
         "config": {
-            "maxLambdaSize": "15mb", "runtime": "python3.8"
+            "maxLambdaSize": "15mb"
         }
     }],
     "routes": [
