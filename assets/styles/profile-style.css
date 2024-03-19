@@ -3,13 +3,17 @@ body{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    overflow-x: hidden;
+    color: #684544;
+    overflow-x:hidden;
+
 }
 .header {
-    height: 12vh;
+    height: auto;
     width: 100%;
     background-color: rgb(52, 52, 52);
     display: inline-block;
+    position: fixed;
+    padding: 1vh;
 }
 .search-icon{
     height: 5vh;
@@ -32,26 +36,44 @@ body{
 .search-icon:hover {
     cursor: pointer;
 }
-
+.para{
+    width: 40%;
+    font-size: medium;
+}
 .pfp{
     border-radius: 50%;
-    outline-offset: 8px;
+    height:200px;
+    width: 200px;
+    
 }
 
-.RHS{
-    margin-top: 10vw;
+#name{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.45em;
+    font-weight: 650;
+    font-style: normal;
 }
 .LHS{
-    margin-top: 7vw;
+    margin-top:6vh;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.15em;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+
+}
+.RHS{
+    margin-top: auto;
     margin-left: 10vw;
-    overflow-wrap:normal;
+    vertical-align: top;
 }
 
 .contentalt{
     width: 100%;
     height: auto;
-    background-color:  rgb(220, 217, 189);
+    background-color:  #684544;
     padding: 5em;
+    color:#4bb17ecc;
 }
 
 p{
@@ -60,19 +82,22 @@ p{
 .content{
     width: 100%;
     height: auto;
-    
     padding: 5em;
 }
 .Profile{
     display: flex;
-    margin: auto;
-    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     margin-bottom: 5em;
+    padding-top:12vh;
 }
 .gist{
     text-align: center;
 }
-
+.OL{
+    
+}
 .footer{
     background-color: rgb(52, 52, 52);
     height: auto;
@@ -82,9 +107,19 @@ p{
     padding-top: 2vw;
     /* padding-bottom: 2vw; */
     padding-bottom: 5vw;
+    align-items:center;
 }
 ul{
     color: white;
+    list-style:none;
+}
+
+li{
+    margin: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .subsAndSocial{

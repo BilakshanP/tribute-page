@@ -1,0 +1,451 @@
+{
+    "categories": [
+        "mathematician",
+        "politicians",
+        "sports",
+        "scientists"
+    ],
+
+    "mathematician": {
+        "Aryabhta": {
+            "name": "Aryabhta",
+            "tag line" : "The inventor of Zero",
+            "nationality":"Indian",
+            "dob": "476 - 550 CE",
+            "Birth place":"Pataliputra (adjacent to morder-day Patna , Bihar)",
+            "Introduction": 
+                {
+                    "p1": "Aryabhatta (476 - 550 CE) was the first of the major mathematician-astronomers from the classical age of Indian mathematics and Indian astronomy. His works include the Āryabhaṭīya (which mentions that in 3600 Kali Yuga, 499 CE, he was 23 years old) and the Arya-siddhanta.",
+                    "p2": "Aryabhatta mentions in the Aryabhatiya that it was composed 3,600 years into the Kali Yuga, when he was 23 years old. This corresponds to 499 CE, and implies that he was born in 476.",
+                    "p3": "He died at the age of 74 after a long and fruitful career as mathematics, astronomer, and scientist. When and where he died are still unknown. In Kusumapura, Pataliputra, it was thought that he spent most of his time."
+                },
+            "Education":
+                {
+                    "p1":"His upper-level study may have taken place in Kusumapura, and he may have resided in the region for quite some time, according to historical sources from the period. In fact, there has been some conjecture that the place known as Kusumapura might, in fact, be Pataliputra, which was the site of an important astronomical observatory." ,
+                    "p2":"He traveled to Kusumapura for higher studies at some point and that he stayed there for a period of time. Bhaskara I (CE 629), a Hindu and Buddhist tradition, as well as historical records, all identify Kusumapura as Paaliputra, the contemporary city of Patna. Poemists have speculated that the university of Nalanda, situated in Pataliputra at the time, possessed an astronomical observatory, which suggests that Aryabhatta was also in charge of the university of Nalanda. Aryabhatta is also credited with establishing an observatory at the Sun Temple in Taregana, Bihar, which is still in use today."
+                },
+            "Works":{
+                "Mathematics":{
+                    "T1":"Place value system and zero",
+                    "T2":"Approximation of π",
+                    "T3":"Trigonometry",
+                    "P1":"The place-value system, first seen in the 3rd-century Bakhshali Manuscript, was clearly in place in his work. While he did not use a symbol for zero, the French mathematician Georges Ifrah argues that knowledge of zero was implicit in Aryabhata's place-value system as a place holder for the powers of ten with null coefficients.",
+                    "P2":"Aryabhata worked on the approximation for pi (π), and may have come to the conclusion that π is irrational.It is speculated that Aryabhata used the word āsanna (approaching), to mean that not only is this an approximation but that the value is incommensurable (or irrational). If this is correct, it is quite a sophisticated insight, because the irrationality of pi (π) was proved in Europe only in 1761 by Lambert.",
+                    "P3":"In Ganitapada 6, Aryabhata gives the area of a triangle as  tribhujasya phalaśarīraṃ samadalakoṭī bhujārdhasaṃvargaḥ that translates to: 'for a triangle, the result of a perpendicular with the half-side is the area.'\nAryabhata discussed the concept of sine in his work by the name of ardha-jya, which literally means 'half-chord'. In the 12th century, when Gherardo of Cremona translated these writings from Arabic into Latin, he replaced the Arabic jaib with its Latin counterpart, sinus, which means 'cove' or 'bay'; thence comes the English word sine."
+                    },
+            "Astronomy":{
+                "T1":"Motions of the Solar System",
+                "T2":"Eclipses",
+                "T3":"Sidereal periods",
+                "P1":"Aryabhata correctly insisted that the Earth rotates about its axis daily, and that the apparent movement of the stars is a relative motion caused by the rotation of the Earth, contrary to the then-prevailing view, that the sky rotated. This is indicated in the first chapter of the Aryabhatiya, where he gives the number of rotations of the Earth in a yuga, and made more explicit in his gola chapter:\nAryabhata described a geocentric model of the Solar System, in which the Sun and Moon are each carried by epicycles. They in turn revolve around the Earth. In this model, which is also found in the Paitāmahasiddhānta (c. 425 CE), the motions of the planets are each governed by two epicycles, a smaller manda (slow) and a larger śīghra (fast). The order of the planets in terms of distance from earth is taken as: the Moon, Mercury, Venus, the Sun, Mars, Jupiter, Saturn, and the asterisms.\nThe positions and periods of the planets was calculated relative to uniformly moving points. In the case of Mercury and Venus, they move around the Earth at the same mean speed as the Sun. In the case of Mars, Jupiter, and Saturn, they move around the Earth at specific speeds, representing each planet's motion through the zodiac.",
+                "P2":"Solar and lunar eclipses were scientifically explained by Aryabhata. He states that the Moon and planets shine by reflected sunlight. Instead of the prevailing cosmogony in which eclipses were caused by Rahu and Ketu (identified as the pseudo-planetary lunar nodes), he explains eclipses in terms of shadows cast by and falling on Earth. Thus, the lunar eclipse occurs when the Moon enters into the Earth's shadow (verse gola.37). He discusses at length the size and extent of the Earth's shadow (verses gola.38-48) and then provides the computation and the size of the eclipsed part during an eclipse. Later Indian astronomers improved on the calculations, but Aryabhata's methods provided the core.",
+                "P3":"His value for the length of the sidereal year at 365 days, 6 hours, 12 minutes, and 30 seconds (365.25858 days) is an error of 3 minutes and 20 seconds over the length of a year (365.25636 days).\nAryabhata's work was of great influence in the Indian astronomical tradition and influenced several neighbouring cultures through translations. The Arabic translation during the Islamic Golden Age (c. 820 CE), was particularly influential. Some of his results are cited by Al-Khwarizmi and in the 10th century Al-Biruni stated that Aryabhata's followers believed that the Earth rotated on its axis.\nHis definitions of sine (jya), cosine (kojya), versine (utkrama-jya), and inverse sine (otkram jya) influenced the birth of trigonometry. He was also the first to specify sine and versine (1 − cos x) tables, in 3.75° intervals from 0° to 90°, to an accuracy of 4 decimal places."
+                }
+            },
+            "Other legacies":{
+                "p1":"Aryabhatta Knowledge University (AKU), Patna has been established by Government of Bihar for the development and management of educational infrastructure related to technical, medical, management and allied professional education in his honour. The university is governed by Bihar State University Act 2008.",
+                "p2":"India's first satellite Aryabhata and the lunar crater Aryabhata are both named in his honour, the Aryabhata satellite also featured on the reverse of the Indian 2-rupee note.",
+                "p3":"An Institute for conducting research in astronomy, astrophysics and atmospheric sciences is the Aryabhatta Research Institute of Observational Sciences (ARIES) near Nainital, India."
+            }
+
+        },
+        "Ramanujan":{
+            "name": "Ramanujan",
+            "tag line" : "The man who knew infinity",
+            "nationality":"Indian",
+            "dob": "22nd December 1887 - 26th April 1920",
+            "Birth place":"Erode, Tamil Nadu",
+            "Introduction": 
+                {
+                    "p1": "Srinivasa Iyengar Ramanujan (22nd December 1887 - 26th April 1920) was an Indian Mathematician, known for his contributions to the theory of numbers including pioneering discoveries of the properties of the partition functions."
+                },
+            "Education":
+                {
+                    "p1":"In 1910, Ramanujan met deputy collector V. Ramaswamy Aiyer, who founded the Indian Mathematical Society. Wishing for a job at the revenue department where Aiyer worked, Ramanujan showed him his mathematics notebooks."
+                },
+            "Works":{
+                "title":["Audatic Genius","Early Mathematical Prowess","Formal Education and Recognition","International Recognition","International Achievements"],
+                "Para":["Ramanujan was largely self-taught in mathematics and showed an early aptitude for numbers. Born on December 22, 1887, in Erode, Tamil Nadu, India, he demonstrated a natural talent for mathematics from a young age, exploring advanced mathematical concepts with little formal training or access to advanced mathematical literature.","During his teenage years, Ramanujan independently developed many theorems and results in mathematics. He mastered advanced trigonometry and developed his theories on his own. By the age of 16, he had already compiled a handwritten notebook containing results and theorems he had discovered. His work came to the attention of local mathematicians, and they recognized his extraordinary talent.","Despite lacking formal education, Ramanujan gained recognition for his mathematical abilities. In 1909, he secured a scholarship to study at Government Arts College in Kumbakonam. However, his focus on mathematics often led him to neglect his other subjects, causing him to lose his scholarship. Despite financial challenges, Ramanujan continued his independent mathematical research.","Ramanujan's work eventually caught the attention of British mathematician G.H. Hardy, who recognized his genius and invited him to study at the University of Cambridge in 1914. This marked a turning point in Ramanujan's life, as he began collaborating with and learning from some of the leading mathematicians of his time.","At Cambridge, Ramanujan's work flourished, and he made substantial contributions to various areas of mathematics, particularly in the fields of number theory, infinite series, and mathematical analysis. His groundbreaking work during this period laid the foundation for many future mathematical discoveries."]
+            },
+            "Other legacies":{
+                "p1":"In mathematics, there is a distinction between having an insight and having a proof. Ramanujan's talent suggested a group of formulae that could then be investigated in depth later. It is said that Ramanujan's discoveries are unusually rich . As a by-product, new directions of research were opened up. Examples of the most interesting of these formulae include the infinite series for π, one of which is given below One of his remarkable capabilities was the rapid solution for problems. He was sharing a room with P. C. Mahalanobis who had a problem, Imagine that you are on a street with houses marked 1 through n. There is a house in between (x) such that the sum of the house numbers to left of it equals the sum of the house numbers to its right. If n is between 50 and 500, what are n and x?'' This is a bivariate problem with multiple solutions. Ramanujan thought about it and gave the answer with a twist: He gave a continued fraction. The class of problems. Mahalanobis was astounded and asked how he did it. 'It is simple. The minute I heard the problem, I knew that the answer was a continued fraction. Which continued fraction, I asked myself. Then the answer came to my mind,' Ramanujan replied In 1918, Hardy and Ramanujan studied the partition function P(n) extensively and gave a nonconvergent asymptotic series that permits exact computation of the number of partitions of an integer. He discovered mock theta functions in the last year of his life. For many years these functions were a mystery, but they are now known to be the holomorphic parts of harmonic weak Maass forms."
+            }
+
+        },
+        "Shakuntala": {
+            "name": "Shakuntala Devi",
+            "tag line" : "The human calculator",
+            "nationality":"Indian",
+            "dob": "4 November 1929 - 21 April 2013",
+            "Birth place":"Bangalore , Karnataka",
+            "Introduction": 
+                {
+                    "p1": "Shakuntala Devi (4 November 1929 - 21 April 2013) was an Indian mental calculator and writer, popularly known as the 'Human Computer'. Her talent earned her a place in the 1982 edition of The Guinness Book of World Records. ",
+                    "p2": "Shakuntala Devi was born on 4 November 1929 at Bangalore, Karnataka. to a Kannada Brahmin family.  Her father, C V Sundararaja Rao, he discovered his daughter's ability to memorise numbers while teaching her a card trick when she was about three years old. At the age of six she demonstrated her arithmetic abilities at the University of Mysore."
+                },
+            "Education":
+                [
+                "Devi was a precocious child and she demonstrated her arithmetic abilities at the University of Mysore without any formal education.",
+                "Devi strove to simplify numerical calculations for students. She wrote a number of books in her later years, including novels as well as texts about mathematics, puzzles, and astrology."
+            ],
+            "Works":{
+                "Mental Calculator":{
+                    "p1": "In 1988, she travelled to the US to have her abilities studied by Arthur Jensen, a professor of educational psychology at the University of California, Berkeley. Jensen tested her performance at several tasks, including the calculation of large numbers. Examples of the problems presented to Devi included calculating the cube root of 61,629,875 and the seventh root of 170,859,375.5 . Jensen reported that Devi provided the solution to the above-mentioned problems (395 and 15, respectively) before Jensen could copy them down in his notebook. Jensen published his findings in the academic journal Intelligence in 1990.",
+                    "p2": "In 1977, at Southern Methodist University, she gave the 23rd root of a 201-digit number in 50 seconds. Her answer, which was 546,372,891, was confirmed by calculations done at the US Bureau of Standards by the UNIVAC 1101 computer, for which a special program had to be written to perform such a large calculation, which took a longer time than for her to do the same.",
+                    "p3": "On 18 June 1980, she demonstrated the multiplication of two 13-digit numbers - 7,686,369,774,870 x 2,465,099,745,779. These numbers were picked at random by the Department of Computing at Imperial College London. She correctly answered 18,947,668,177,995,426,462,773,730 in 28 seconds. This event was recorded in the 1982 Guinness Book of World Records. Writer Steven Smith commented, 'the result is so far superior to anything previously reported that it can only be described as unbelievable.",
+                    "p4": "Shakuntala Devi explained many of the methods she used to do mental calculations in her 1977 book Figuring: The Joy of Numbers."
+                    },
+            "Book on Homosexuality":{
+                "Perfect Murder": "authored by this mathematical wizard, is the tale of a successful lawyer-turned-killer and is regarded as a fine work of fiction. Translated in a few regional languages, 'Perfect Murder' put her in the spotlight for her literary abilities as well.",
+                "Puzzles to Puzzle You":"Ec is considered one of Shakuntala Devi's best works for aspiring and budding mathematicians. Critics have rated this book as one of the best reads for people who want to excel in the field of mathematics and master the secrets of the subject. A book meant for starters, this publication sold over 6,000 copies in its first week and continues to be an inspiration for many.",
+                "The World of Homosexuals.":" published in 1977, went almost unnoticed in the beginning due to its bold content and the country's inhospitable outlook to such a controversial issue. However, with the onset of a new cultural wave, the book soon began to gather some attention and was included in the 'Top 100 books by Indian authors' in 2005.",
+                "More Puzzles to Puzzle You":"",
+                "Astrology for You.":"",
+                "Mathability: Awaken the Math Genius in Your Child":"",
+                "Book of Numbers:Everything You Always Wanted to Know About Numbers but Was Difficult to Understand":"",
+                "p1":"Devi has written books on mathematical calculations, memory power, social issues, puzzles, and mysteries. A few books written by Devi have the tricks and tips to improve mathematical ability and enhance memory.",
+                "p2":"She has also written books related to social issues that are inspiring and educational. Devi has added fun into maths and explained it as the most easy-going concepts to learn. It has inspired many students to take forward their mathematical abilities."
+                }
+            },
+            "Other legacies":[
+                "Shakuntala Devi won the 'Distinguished Woman of the Year Award' in 1969, from the University of Philippines along with a gold medal.","In 1988, she was honored with the 'Ramanujan Mathematical Genius Award' in Washington D.C., conferred to her by the-then Indian Ambassador to US.","Her name was listed in the '1995 Guinness Book of World Records' edition for her outstanding mathematical feat where she beat the world's fastest computer at multiplying two thirteen-digit numbers.","A month before her death, she was honored with the 'Lifetime Achievement Award' in Mumbai, in 2013.","A film on her life titled Shakuntala Devi was announced in May 2019. The film stars Vidya Balan in the lead title role and features Sanya Malhotra, Amit Sadh, and Jisshu Sengupta in the supporting roles. Produced by Sony Pictures Networks Productions, the film streamed worldwide on Amazon Prime Video on 31 July 2020"
+            
+            ]
+
+        }  
+    },
+    "scientists":{
+        "hawking":{
+            "name": "Stephen William Hawking",
+            "tag line" : "Beyond the Bounds of the Universe.",
+            "nationality":"British",
+            "dob": "8 January 1942 - 14 March 2018",
+            "birth place":"Oxford, England",
+            "introduction":[
+                "Stephen William Hawking was an English theoretical physicist, cosmologist, and author who was director of research at the Centre for Theoretical Cosmology at the University of Cambridge.",
+                "Between 1979 and 2009, he was the Lucasian Professor of Mathematics at Cambridge, widely viewed as one of the most prestigious academic posts in the world.",
+                "Hawking was born on 8 January 1942 in Oxford to Frank and Isobel Eileen Hawking (née Walker). Hawking's mother was born into a family of doctors in Glasgow, Scotland."
+            ],
+            "education":[
+                "Hawking began his schooling at the Byron House School in Highgate, London. He later blamed its 'progressive methods' for his failure to learn to read while at the school. In St Albans, the eight-year-old Hawking attended St Albans High School for Girls for a few months. Hawking's father wanted his son to attend Westminster School, but the 13-year-old Hawking was ill on the day of the scholarship examination. Although known at school as 'Einstein', Hawking was not initially successful academically. With time, he began to show considerable aptitude for scientific subjects and, inspired by Tahta, decided to read mathematics at university. As it was not possible to read mathematics there at the time, Hawking decided to study physics and chemistry. Despite his headmaster's advice to wait until the next year, Hawking was awarded a scholarship after taking the examinations in March 1959."
+            ],
+            "works":{
+                "Black hole":"In his work, and in collaboration with Penrose, Hawking extended the singularity theorem concepts first explored in his doctoral thesis. This included not only the existence of singularities but also the theory that the universe might have started as a singularity. Their joint essay was the runner-up in the 1968 Gravity Research Foundation competition. In 1970, Hawking postulated what became known as the second law of black hole dynamics, that the event horizon of a black hole can never get smaller.",
+                "book":"Hawking continued his writings for a popular audience, publishing The Universe in a Nutshell in 2001, and A Briefer History of Time, which he wrote in 2005 with Leonard Mlodinow to update his earlier works with the aim of making them accessible to a wider audience, and God Created the Integers, which appeared in 2006. Along with Thomas Hertog at CERN and Jim Hartle, from 2006 on Hawking developed a theory of top-down cosmology, which says that the universe had not one unique initial state but many different ones, and therefore that it is inappropriate to formulate a theory that predicts the universe's current configuration from one particular initial state. Top-down cosmology posits that the present 'selects' the past from a superposition of many possible histories. In doing so, the theory suggests a possible resolution of the fine-tuning question.",
+                "Award":"Hawking continued to travel widely, including trips to Chile, Easter Island, South Africa, Spain (to receive the Fonseca Prize in 2008), Canada, and numerous trips to the United States. For practical reasons related to his disability, Hawking increasingly travelled by private jet, and by 2011 that had become his only mode of international travel. In 2002, following a UK-wide vote, the BBC included Hawking in their list of the 100 Greatest Britons. He was awarded the Copley Medal from the RoyalSociety (2006), the Presidential Medal of Freedom, which is America's highest civilian honour (2009), and the Russian Special Fundamental Physics Prize (2013). Several buildings have been named after him, including the Stephen W. Hawking Science Museum in San Salvador, El Salvador, the Stephen Hawking Building in Cambridge, and the Stephen Hawking Centre at the Perimeter Institute in Canada. Appropriately, given Hawking's association with time, he unveiled the mechanical'Chronophage' (or time-eating) Corpus Clock at Corpus Christi College, Cambridge in September 2008."    
+            },
+            "other legacies":{
+                "The Hawking Fellowship":"In 2017, the Cambridge Union Society, in conjunction with Hawking, established the Professor Stephen Hawking Fellowship. The fellowship is awarded annually to an individual who has made an exceptional contribution to the STEM fields and social discourse, with a particular focus on impacts affecting the younger generations. Each fellow delivers a lecture on a topic of their choosing, known as the 'Hawking Lecture'.",
+                "Medal for Science Communication":"Hawking was a member of the advisory board of the Starmus Festival, and had a major role in acknowledging and promoting science communication. The Stephen Hawking Medal for Science Communication is an annual award initiated in 2016 to honour members of the arts community for contributions that help build awareness of science.Recipients receive a medal bearing a portrait of Hawking by Alexei Leonov, and the other side represents an image of Leonov himself performing the first spacewalk along with an image of the 'Red Special', the guitar of Queen musician and astrophysicist Brian May (with music being another major component of the Starmus Festival)."
+            }
+        },
+        "newton":{
+            "name": "Sir Isaac Newton",
+            "tag line" : "Architect of the Mathematical Universe",
+            "nationality":"British",
+            "dob": "4 January 1643 - 31 March 1727",
+            "birth place":"Lincolnshire, England",
+            "introduction":[
+                "Sir Isaac Newton was an English polymath active as a mathematician, physicist, astronomer, alchemist, theologian, and author who was described in his time as a natural philosopher. His pioneering book Philosophiæ Naturalis Principia Mathematica (Mathematical Principles of Natural Philosophy), first published in 1687, consolidated many previous results and established classical mechanics.",
+                " Newton also made seminal contributions to optics, and shares credit with German mathematician Gottfried Wilhelm Leibniz for developing infinitesimal calculus.",
+                "Isaac Newton was born (according to the Julian calendar in use in England at the time) on Christmas Day, 25 December 1642 (NS 4 January 1643) at Woolsthorpe Manor in Woolsthorpe-by-Colsterworth, a hamlet in the county of Lincolnshire."
+            ],
+            "education":[
+                "From the age of about twelve until he was seventeen, Newton was educated at The King's School in Grantham, which taught Latin and Ancient Greek. In June 1661, Newton was admitted to Trinity College at the University of Cambridge. His uncle Reverend William Ayscough, who had studied at Cambridge, recommended him to the university. At Cambridge, Newton started as a subsizar, paying his way by performing valet duties until he was awarded a scholarship in 1664, which covered his university costs for four more years until the completion of his MA."
+            ],
+            "works":{
+                "Calculas":"Newton's work has been said 'to distinctly advance every branch of mathematics then studied'.His work on the subject, usually referred to as fluxions or calculus, seen in a manuscript of October 1666, is now published among Newton's mathematical papers. Newton is generally credited with the generalised binomial theorem, valid for any exponent. He discovered Newton's identities, Newton's method, classified cubic plane curves (polynomials of degree three in two variables), made substantial contributions to the theory of finite differences, and was the first to use fractional indices and to employ coordinate geometry to derive solutions to Diophantine equations. He approximated partial sums of the harmonic series by logarithms (a precursor to Euler's summation formula) and was the first to use power series with confidence and to revert power series. Newton's work on infinite series was inspired by Simon Stevin's decimals.",
+                "Optics":"A replica of the reflecting telescope Newton presented to the Royal Society in 1672 (the first one he made in 1668 was loaned to an instrument maker but there is no further record of what happened to it).In 1666, Newton observed that the spectrum of colours exiting a prism in the position of minimum deviation is oblong, even when the light ray entering the prism is circular, which is to say, the prism refracts different colours by different angles. This led him to conclude that colour is a property intrinsic to light – a point which had, until then, been a matter of debate.\nFrom 1670 to 1672, Newton lectured on optics. During this period he investigated the refraction of light, demonstrating that the multicoloured image produced by a prism, which he named a spectrum, could be recomposed into white light by a lens and a second prism.\nHe showed that coloured light does not change its properties by separating out a coloured beam and shining it on various objects, and that regardless of whether reflected, scattered, or transmitted, the light remains the same colour. Thus, he observed that colour is the result of objects interacting with already-coloured light rather than objects generating the colour themselves. This is known as Newton's theory of colour.",
+                "Gravity":"Newton had been developing his theory of gravitation as far back as 1665. In 1679, Newton returned to his work on celestial mechanics by considering gravitation and its effect on the orbits of planets with reference to Kepler's laws of planetary motion. The Principia was published on 5 July 1687 with encouragement and financial help from Halley. In this work, Newton stated the three universal laws of motion. Together, these laws describe the relationship between any object, the forces acting upon it and the resulting motion, laying the foundation for classical mechanics. They contributed to many advances during the Industrial Revolution which soon followed and were not improved upon for more than 200 years. Many of these advances continue to be the underpinnings of non-relativistic technologies in the modern world. He used the Latin word gravitas (weight) for the effect that would become known as gravity, and defined the law of universal gravitation."
+            },
+            "other legacies":[
+                "Newton himself often told the story that he was inspired to formulate his theory of gravitation by watching the fall of an apple from a tree.[167][168] The story is believed to have passed into popular knowledge after being related by Catherine Barton, Newton's niece, to Voltaire.[169] Voltaire then wrote in his Essay on Epic Poetry (1727), 'Sir Isaac Newton walking in his gardens, had the first thought of his system of gravitation, upon seeing an apple falling from a tree'.",
+                "Newton's monument (1731) can be seen in Westminster Abbey, at the north of the entrance to the choir against the choir screen, near his tomb. It was executed by the sculptor Michael Rysbrack (1694–1770) in white and grey marble with design by the architect William Kent.[181] The monument features a figure of Newton reclining on top of a sarcophagus, his right elbow resting on several of his great books and his left hand pointing to a scroll with a mathematical design."
+            ]
+        },
+        "faraday":{
+            "name": "Michael Faraday",
+            "tag line" : "The Father of Electromagnetism",
+            "nationality":"British",
+            "dob": "22 September 1791 - 25 August 1867 ",
+            "birth place":"Surrey, England",
+            "introduction":[
+                "Michael Faraday was an English scientist who contributed to the study of electromagnetism and electrochemistry. His main discoveries include the principles underlying diamagnetism and electrolysis. It was by his research on the magnetic field around a conductor carrying a direct current that Faraday established the concept of the electromagnetic field in physics.",
+                "Michael Faraday was born on 22 September 1791 in Newington Butts, Surrey (which is now part of the London Borough of Southwark). His father, James, was a member of the Glasite sect of Christianity."
+            ],
+            "education":[
+                "Michael Faraday, who was the third of four children, having only the most basic school education, had to educate himself. At the age of 14 he became an apprentice to George Riebau, a local bookbinder and bookseller in Blandford Street. During his seven-year apprenticeship Faraday read many books, including Isaac Watts's The Improvement of the Mind. In 1812, at the age of 20 and at the end of his apprenticeship, Faraday attended lectures by the eminent English chemist Humphry Davy of the Royal Institution and the Royal Society, and John Tatum, founder of the City Philosophical Society."
+            ],
+            "works":{
+                "Chemistry":"Faraday, under Humphry Davy's guidance, explored chlorine compounds and discovered hexachloroethane and carbon tetrachloride. He liquefied gases, investigated steel alloys, and developed optical glass. He invented an early version of the Bunsen burner and identified benzene. Faraday synthesized carbon-chlorine compounds, elucidated the composition of chlorine clathrate hydrate, and discovered laws of electrolysis. He pioneered terms like anode, cathode, and electrode. Faraday also uncovered metallic nanoparticles, observing quantum size effects in gold colloids, marking a milestone in nanoscience.",
+                "Electricity":"Faraday's groundbreaking work in electricity and magnetism began with his construction of a voltaic pile, using coins and zinc discs to decompose sulfate of magnesia. Inspired by Hans Christian Ørsted's discovery of electromagnetism, Faraday developed the homopolar motor, showcasing continuous circular motion through electromagnetic rotation. From 1821, he delved deeper into electromagnetic properties, perfecting optical glass and exploring connections between light and magnetism. In 1831, Faraday's pivotal experiments led to the discovery of electromagnetic induction, solidifying his legacy in the field.",
+                "Diamagnetism":"In 1845, Faraday discovered that many materials exhibit a weak repulsion from a magnetic field: an effect he termed diamagnetism.\nFaraday also discovered that the plane of polarization of linearly polarized light can be rotated by the application of an external magnetic field aligned with the direction in which the light is moving. This is now termed the Faraday effect. In Sept 1845 he wrote in his notebook, 'I have at last succeeded in illuminating a magnetic curve or line of force and in magnetising a ray of light'.\nLater on in his life, in 1862, Faraday used a spectroscope to search for a different alteration of light, the change of spectral lines by an applied magnetic field. The equipment available to him was, however, insufficient for a definite determination of spectral change"
+                },
+            "other legacies":[
+                "The IET Faraday Medal",
+                "The Royal Society of London Michael Faraday Prize",
+                "The Institute of Physics Michael Faraday Medal and Prize",
+                "The Royal Society of Chemistry Faraday Lectureship Prize"  
+            ]
+        },
+        "APJ":{
+            "name": "Avul Pakir Jainulabdeen Abdul Kalam",
+            "tag line" : "Missile Man of India",
+            "nationality":"Indian",
+            "dob": " 15 October 1931 -  27 July 2015",
+            "birth place":"",
+            "introduction":[
+                "Avul Pakir Jainulabdeen Abdul Kalam  was an Indian aerospace scientist and statesman who served as the 11th president of India from 2002 to 2007. He was born and raised in Rameswaram, Tamil Nadu and studied physics and aerospace engineering.",
+                "He spent the next four decades as a scientist and science administrator, mainly at the Defence Research and Development Organisation (DRDO) and Indian Space Research Organisation (ISRO) and was intimately involved in India's civilian space programme and military missile development efforts. He thus came to be known as the 'Missile Man' of India for his work on the development of ballistic missile and launch vehicle technology."
+            ],
+            "education":[
+                "After completing his education at Schwartz Higher Secondary School, Ramanathapuram, Kalam went on to attend the St. Joseph's College, Tiruchirappalli from where he graduated in Physics in 1954. Kalam moved to Madras in 1955 to study aerospace engineering in Madras Institute of Technology. A.P.J. Abdul Kalam attended the Madras Institute of Technology, where he received a degree in aeronautical engineering in 1960."
+            ],
+            "works":{
+                "As the President":"",
+                "As a scientist":"In the 1970s, Kalam also directed two projects, Project Devil and Project Valiant, which sought to develop ballistic missiles from the technology of the successful SLV programme. Despite the disapproval of the Union Cabinet, Prime Minister Indira Gandhi allotted secret funds for these aerospace projects through her discretionary powers under Kalam's directorship.\nKalam served as the Chief Scientific Adviser to the Prime Minister and Secretary of the Defence Research and Development Organisation from July 1992 to December 1999. The Pokhran-II nuclear tests were conducted during this period in which he played an intensive political and technological role. Kalam served as the Chief Project Coordinator, along with Rajagopala Chidambaram, during the testing phase."
+                },
+            "other legacies":{
+                "degree":"Kalam received 7 honorary doctorates from 40 universities.",
+                "TN":"Following his death, Kalam received numerous tributes. The Tamil Nadu state government announced that his birthday, 15 October, would be observed across the state as 'Youth Renaissance Day'.",
+                "Padma":"The Government of India honoured him with the Padma Bhushan in 1981 and the Padma Vibhushan in 1990 for his work with ISRO and DRDO and his role as a scientific advisor to the Government. In 1997, Kalam received India's highest civilian honour, the Bharat Ratna, for his contribution to the scientific research and modernisation of defence technology in India"
+            }
+        },
+        "Einstein":{
+            "name": "Alber Einstein",
+            "tag line" : "Father of mordern physics",
+            "nationality":"German",
+            "dob": "14 March 1879 - 18 April 1955",
+            "birth place":" Württemberg, Germany",
+            "introduction":[
+                "Albert Einstein was a German-born theoretical physicist who is widely held to be one of the greatest and most influential scientists of all time. Best known for developing the theory of relativity, Einstein also made important contributions to quantum mechanics.",
+                "He received the 1921 Nobel Prize in Physics for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect.",
+                "Albert Einstein was born at Ulm, in Württemberg, Germany, on March 14, 1879. Six weeks later the family moved to Munich, where he later on began his schooling at the Luitpold Gymnasium.",
+                "Einstein was 76 when he died of a ruptured abdominal aortic aneurysm on April 18, 1955."
+                ],
+            "education":"Albert attended a Catholic elementary school in Munich from the age of five. When he was eight, he was transferred to the Luitpold Gymnasium where he received advanced primary and then secondary school education. He made such rapid progress that he discovered an original proof of the Pythagorean theorem before his thirteenth birthday.  Einstein recorded that he had 'mastered integral and differential calculus' while still just fourteen.[In 1895, at the age of sixteen, Einstein sat the entrance examination for the federal polytechnic school  in Zürich, Switzerland. He failed to reach the required standard in the general part of the test,[33] but performed with distinction in physics and mathematics. At seventeen, he enrolled in the four-year mathematics and physics teaching diploma program at the federal polytechnic school."                
+            ,
+            "works":{
+                "Special relativity":"Einstein's 'Zur Elektrodynamik bewegter Körper' ('On the Electrodynamics of Moving Bodies') was received on 30 June 1905 and published 26 September of that same year. It reconciled conflicts between Maxwell's equations (the laws of electricity and magnetism) and the laws of Newtonian mechanics by introducing changes to the laws of mechanics.  Observationally, the effects of these changes are most apparent at high speeds (where objects are moving at speeds close to the speed of light). The theory developed in this paper later became known as Einstein's special theory of relativity.\nIn his paper on mass–energy equivalence, Einstein produced E = mc2 as a consequence of his special relativity equations. Einstein's 1905 work on relativity remained controversial for many years, but was accepted by leading physicists, starting with Max Planck.",
+                "General relativity":"General relativity (GR) is a theory of gravitation that was developed by Einstein between 1907 and 1915. According to it, the observed gravitational attraction between masses results from the warping of spacetime by those masses. General relativity has developed into an essential tool in modern astrophysics; it provides the foundation for the current understanding of black holes, regions of space where gravitational attraction is so strong that not even light can escape.",
+                "Old quantum theory":"In a 1905 paper,[219] Einstein postulated that light itself consists of localized particles (quanta). Einstein's light quanta were nearly universally rejected by all physicists, including Max Planck and Niels Bohr. Einstein concluded that each wave of frequency f is associated with a collection of photons with energy hf each, where h is Planck's constant.",
+                "Einstein - Cartan theory":"In order to incorporate spinning point particles into general relativity, the affine connection needed to be generalized to include an antisymmetric part, called the torsion. This modification was made by Einstein and Cartan in the 1920s."
+                },
+            "other legacies":[
+                "Einstein received numerous awards and honors, and in 1922, he was awarded the 1921 Nobel Prize in Physics 'for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect'.",
+                "None of the nominations in 1921 met the criteria set by Alfred Nobel, so the 1921 prize was carried forward and awarded to Einstein in 1922.",
+                "Einsteinium, a synthetic chemical element, was named in his honor in 1955, a few months after his death."
+            ]
+        }
+    },    
+    "Sports":{
+        "msd":{"name": "Mahendra Singh Dhoni",
+            "tag line" : "Definetly not",
+            "nationality":"Indian",
+            "dob": "7 July 1981 - present",
+            "birth place":"Ranchi, Jharkhand",
+            "introduction":[
+                "Mahendra Singh Dhoni is an Indian professional cricketer. He is a right handed batter and a wicket-keeper. Widely regarded as one of the most prolific wicket-keeper-batsmen and captains, he represented the Indian cricket team and was the captain of the side in limited-overs formats from 2007 to 2017 and in test cricket from 2008 to 2014.",
+                "Dhoni was born on 7 July 1981 in Ranchi, Bihar (now in Jharkhand) in a Hindu Rajput family to Pan Singh and Devaki Devi.",
+                "Dhoni has scored 4876 runs in Test matches at an average of 38 and 10773 runs at an average of above 50 in ODIs. He has scored 16 centuries and 106 fifties in his international career.",
+                "Dhoni has one of the highest averages in ODI cricket. Dhoni has scored more than 3200 runs across 377 T20 matches. Dhoni has taken 634 catches and effected 195 stumpings in his international career making him one of the most prolific wicket-keepers of all time.",
+                "From 2001 to 2003, Dhoni worked as a Travelling Ticket Examiner (TTE) at Kharagpur under South Eastern Railway zone of Indian Railways."
+            ],
+            "education":[
+                "Dhoni did his schooling at DAV Jawahar Vidya Mandir where he started playing football as a goal keeper but later moved to play cricket on the suggestion of his coach Keshav Banerjee."
+            ],
+            "works":[
+                "He played as a wicket-keeper for Commando cricket club from 1995 to 1998 and Central Coal Fields Limited (CCL) team in 1998.[13] At CCL, he batted higher up the order and helped the team qualify to the higher division.",
+                "Dhoni made his Ranji Trophy debut for Bihar against Assam in the 1999 - 2000 season, as an eighteen-year-old scoring 68 runs in the second innings.",
+                "Dhoni led the Indian squad for the 2011 Cricket World Cup co-hosted by India.[74] India won its second ever ODI world cup after defeating Sri Lanka in the final with Dhoni being named man of the match for scoring an unbeaten 91."
+            ],
+            "other legacies":[
+                "Honorary doctorate degree by De Montfort University: 2011",
+                "CNN-News18 Indian of the Year:",
+                "Major Dhyanchand Khel Ratna award: 2008",
+                "Padma Shri: 2009",
+                "Honorary Lieutenant Colonel, Parachute Regiment of the Indian Territorial Army: 2011",
+                "Castrol Indian Cricketer of the Year:",
+                "ICC People's Choice Award: 2013[233]",
+                "Padma Bhushan:",
+                "In 2019, Jharkhand Cricket Association named the JSCA stadium's south stand after Dhoni.",
+                "In 2023, the Mumbai Cricket Association (MCA) decided to honour him by dedicating seats (J282-J286) at the Wankhede Stadium where he hit the winning shot in 2011 World Cup final."
+                ]},
+        "gopichand":{"name": "Pullela Gopichand",
+            "tag line" : "Crafting Champions on the Badminton Court",
+            "nationality":"Indian",
+            "dob": "16 November 1973 - present",
+            "birth place":"",
+            "introduction":[
+                "Pullela Gopichand is a former Indian badminton player. Currently, he is the Chief National Coach for the India national badminton team.",
+                "He won the All England Open Badminton Championships in 2001, becoming the second Indian to achieve this feat after Prakash Padukone. He runs the Gopichand Badminton Academy.",
+                "He received the Arjuna Award in 1999, the Dronacharya Award in 2009 and the Padma Bhushan - India's third highest civilian award - in 2014.",
+                "Pullela Gopichand was born on 16 November 1973 near Chirala Town to Mr. Pullela Subash Chandra and Mrs. Pullela Subbaravamma, in Prakasam district, Andhra Pradesh. Initially, he was interested in playing cricket, but his elder brother encouraged him to take up badminton instead."
+
+            ],
+            "education":[
+              "He did his schooling in St. Paul's High School, Hyderabad. He joined A. V. College, Hyderabad and graduated in public administration. He was the captain of the Indian combined universities badminton team in 1990 and 1991."  
+            ],
+            "works":{
+                "Player":"Pullela was coached by S. M. Arif before Prakash Padukone accepted him at Prakash Padukone academy. He also trained under Ganguly Prasad at the SAI Bangalore. Pullela won his first National Badminton Championship title in 1996, and went on to win the title five times in a row, until 2000. He won two gold medals and one silver medal at the Indian national games, 1998, held at Imphal. At the international level, he represented India in 3 Thomas Cup tournaments. In 1996, he won a gold in the SAARC badminton tournament at Vijayawada and defended his crown in the next games held at Colombo in 1997. At the 1998 Commonwealth Games, he won a silver in the team event and a bronze in men's singles.\nIn 1999, he won the Toulouse Open Championship in France and the Scottish Open Championship in Scotland. He also emerged as the winner at the Asian satellite tournament held at Hyderabad in the same year, and lost in the final match of the German Grand Prix Championship.\nIn 2001, he won the All England Open Badminton Championships at Birmingham. He defeated then world number one Peter Gade in the semi-finals before defeating Chen Hong of China to lift the trophy. He became the second Indian to achieve the feat after Prakash Padukone, who won in 1980. ",
+                "Coach":"After retiring from his playing career, Pullela founded the Gopichand Badminton Academy in 2008 after reportedly mortgaging his own house. Nimmagadda Prasad, a renowned industrialist, donated ₹50 million (equivalent to ₹170 million or US$2.1 million in 2023) on a condition that his academy win a medal for India at the Olympics in badminton. The academy produced several badminton players including Saina Nehwal, P. V. Sindhu, Sai Praneeth, Parupalli Kashyap, Srikanth Kidambi, Arundhati Pantawane, Gurusai Datt, and Arun Vishnu.[23] Saina Nehwal went on to win the bronze medal at the 2012 Summer Olympics, while P. V. Sindhu went on to win the silver medal at the 2016 Summer Olympics, the bronze medal at the pandemic-hit 2020 Summer Olympics, and also became the first Indian to win the gold medal at the BWF World Championships. Pullela also served as the official Indian Olympic Badminton Team coach at the 2016 Rio Olympics held in Brazil."
+            },
+            "other legacies":[
+                "Arjuna Award, 1999.",
+                "Major Dhyan Chand Khel Ratna, 2001",
+                "Padma Shri, 2005",
+                "Dronacharya Award, 2009 ",
+                "Padma Bhushan, 2014",
+                "Rashtriya Khel Protsahan Puruskar, 2013, under Category Establishment and Management of Sports Academies of Excellence- Pullela Gopichand Academy of Badminton, Hyderabad",
+                "He was bestowed upon an honorary doctorate by IIT Kanpur on the occasion of their 52nd Convocation.",
+                "Shuttler's Flick: Making Every Match Count - biographical book"
+                ]},
+        "sania":{"name": "Sania Mirza", 
+            "tag line" : "Empowering Women Through Sportsmanship",
+            "nationality":"Indian",
+            "dob": "15 November 1986 - present",
+            "birth place":"Mumbai Maharashtra",
+            "introduction":[
+                "Sania Mirza is an Indian former professional tennis player. A former doubles world No. 1, she won six major titles - three in women's doubles and three in mixed doubles.",
+                "From 2003 until her retirement from singles in 2013, she was ranked by the Women's Tennis Association as the No. 1 Indian in singles.",
+                " Throughout her career, Mirza has established herself as one of the most known, highest-paid, and influential athletes in India.",
+                "Sania Mirza was born on 15 November 1986 in Mumbai to Hyderabadi Muslim parents Imran Mirza, a sports journalist, and his wife Naseema, who worked in a printing business."
+            ],
+            "education":[
+                "She attended Nasr School in Hyderabad. She later graduated from the St. Mary's College, Hyderabad. Mirza also received an honorary degree of Doctor of Letters from the Dr. M.G.R. Educational and Research Institute in Chennai on 11 December 2008."
+            ],
+            "works":[
+                "Mirza began playing tennis at the age of six, turning professional in 2003. She was trained by her father. Mirza won ten singles and thirteen doubles titles as a junior player. She won the 2003 Wimbledon Championships girls' doubles title, partnering Alisa Kleybanova.",
+                "Mirza though reached the quarterfinals of the 2013 Australian Open mixed doubles partnering Bob Bryan. Mattek-Sands and Mirza then won the doubles title at the Dubai Tennis Championships in February.",
+                "In late 2018, Mirza announced she hoped to return to professional tennis in time for the 2020 Summer Olympics. After having celebrated her son's first birthday and having spent more than two years off the professional circuit, she returned to the tour at the Hobart International in January 2020 playing alongside Nadiia Kichenok. The newly formed team won the tournament beating second seeds Peng Shuai/Zhang Shuai in the final."
+
+            ],
+            "other legacies":[
+                "Mirza has established a tennis academy in Hyderabad. Former world No. 1s and multiple Grand Slam winners Cara Black and Martina Navratilova have both visited the academy on different occasions.",
+                "Mirza was announced the UN Women Goodwill Ambassador for South Asia. She is the first South Asian woman to be appointed as a Goodwill Ambassador in the organization's history.",
+                "Arjuna Award (2004)",
+                "WTA Newcomer of the Year (2005)",
+                "Padma Shri (2006)",
+                "Major Dhyan Chand Khel Ratna (2015)",
+                "BBC list of 100 inspiring women (2015)",
+                "Padma Bhushan (2016)",
+                "NRI of the Year (2016)",
+                "Pinkvilla Style Icons Awards - Super Glam Sports Star of the Year (2023)[79]"
+                ]},
+        "mary kom":{
+            "name": "Mangte Chungneijang Mary Kom",
+            "tag line" : "Magnificient Mary",
+            "nationality":"Indian",
+            "dob": "24 November 1982",
+            "birth place":" Moirang Lamkhai, Churachandpur, Manipur ",
+            "introduction":[
+                "Mangte Chungneijang Mary Kom She is the only woman to win the World Amateur Boxing Championship six times, the only female boxer to have won a medal in each one of the first seven World Championships, and the only boxer (male or female) to win eight World Championship medals.",
+                "Nicknamed Magnificent Mary, she was the only Indian female boxer to have qualified for the 2012 Summer Olympics, where she competed in the flyweight (51 kg) category and won a bronze medal. She had also been ranked as the world's No. 1 female light-flyweight by the International Boxing Association (amateur) (AIBA).",
+                " She became the first Indian female boxer to win a gold medal in the Asian Games in 2014 at Incheon, South Korea and is the first Indian female boxer to win gold at the 2018 Commonwealth Games. She is also the only boxer to become Asian Amateur Boxing Champion for a record six times. Mary Kom won the 51kg gold in President's Cup in Indonesia.",
+                "Mary Kom  (born 24 November 1982) is an Indian Olympic boxer, politician, and former Member of Rajya Sabha. Kom was born in Kagathei village, Moirang Lamkhai in the Churachandpur district of rural Manipur in India."
+            ],
+            "education":[
+                "Kom studied at the Loktak Christian Model High School at Moirang up to her sixth standard and thereafter attended St. Xavier Catholic School, Moirang, up to class 8.",
+                "After completing class 8, Kom moved to Adimjati High School, Imphal, for her schooling for classes 9 and 10, but was unable to pass the matriculation exam. Not wishing to reappear for them, she quit her school and gave her examination from NIOS, Imphal, and graduated from Churachandpur College"
+            ],
+            "works":[
+                "Gold - 1st Women Nat. Boxing Championship, Chennai 6-12.2.2001",
+                "The East Open Boxing Champ, Bengal 11-14 December 2001",
+                "2nd Sr World Women Boxing Championship, New Delhi 26-30 December 2001",
+                "National Women Sort Meet, N. Delhi 26-30 December 2001",
+                "32nd National Games, Hyderabad 2002",
+                "3rd Sr World Women Boxing Champ, Aizawl 4-8.3.2003",
+                "4th Sr WWBC, Kokrajar, Assam 24-28 February 2004",
+                "5th Sr WWBC, Kerala 26-30 December 2004",
+                "6th Sr WWBC, Jamshedpur 29 November-3.12.2005",
+                "10th WNBC, Jamshedpur lost QF by 1-4 on 5 October 2009"
+            ],
+            "other legacies":[
+                "Padma Vibhushan (Sports), 2020",
+                "Padma Bhushan (Sports), 2013",
+                "Major Dhyan Chand Khel Ratna award, 2009 ",
+                "Padma Shri (Sports), 2006",
+                "Arjuna Award (Boxing), 2003"
+            ]
+        }
+    },
+    "Politicians":{
+        "murmur":{"name": "Droupadi Murmu",
+            "tag line" : "15th President of India",
+            "nationality":"Indian",
+            "dob": "20 June 1958 - present",
+            "birth place":"Baidaposi, Rairangpur, Odisha",
+            "introduction":[
+                "Droupadi Murmu is an Indian politician and former teacher who is serving as the 15th and current President of India since 2022. She won the 2022 presidential election as a candidate of the Bharatiya Janata Party.",
+                "She is the first person belonging to the tribal community and also the second woman after Pratibha Patil to hold the office. She is also the youngest person to occupy the post and the first President born in an independent India.",
+                "Droupadi Murmu was born to a Santali family on 20 June 1958, in Uparbeda village in the Baidaposi area of Rairangpur, Odisha."
+            ],
+            "education":[
+                "Murmu studied elementary education at the local primary school in Upar Beda. At age five, she moved to Bhubaneswar for higher studies.She completed secondary education from Girl's High School Unit-2, and graduated in B.A. from Rama Devi Women's College."
+            ],
+            "works":[
+                "From 1979 to 1983, Murmu worked as a junior assistant at the irrigation department of the Government of Odisha.",
+                "She won the 2000 Odisha Legislative Assembly election from the Rairangpur Assembly constituency and served two terms in the Odisha Legislative Assembly between 2000 and 2009.",
+                "In 2007, she received the Nilkanth Award for the Best MLA of the Odisha Legislative Assembly",
+                "She is the first person from India's designated tribal communities to be elected president.She is the youngest and first individual born after India's independence in 1947 to have been elected president.",
+                "Murmu is only the second woman after Pratibha Patil to serve as president."
+            ],
+            "other legacies":[
+                "In 2017, she approved the Freedom of Religion Bill, 2017, and the bill to amend the Land Acquisition 2013 Act passed by the Jharkhand Assembly.\nThe new religion bill makes it an offence subject to a penalty of three years in prison, to coerce or lure a person to convert their religion.\nIf the person coerced is a member of a Scheduled Caste or tribe, a minor, or female, the prison term increases to four years. Fines can be levied in any case.",
+                "Murmu had received total of 192 memorandums against the amendments in the bill.On 24 May 2017, Murmu relented and refused to give assent to the bills and returned the bill to the state government along with the memorandums she had received. The bill was later withdrawn in August 2017."
+                ]},
+        "lassi":{"name": "Manmohan Singh",
+            "tag line" : "",
+            "nationality":"Indian",
+            "dob": "",
+            "birth place":"",
+            "introduction":[
+                "Manmohan Singh is an Indian retired politician, economist, academician and bureaucrat who served as the 13th Prime Minister of India from 2004 to 2014.",
+                "He is the third longest-serving prime minister after Jawaharlal Nehru and Indira Gandhi. A member of the Indian National Congress, Singh was the first Sikh prime minister of India. He was also the first prime minister since Jawaharlal Nehru to be re-elected after completing a full five-year term.",
+                "Singh was born to Gurmukh Singh and Amrit Kaur on 26 September 1932, in Gah, Punjab, British India, into a Sikh family."
+            ],
+            "education":[
+                "After the Partition of India, his family migrated to Amritsar, India, where he studied at Hindu College, Amritsar. He attended Panjab University, then in Hoshiarpur,Punjab, studying Economics and got his bachelor's and master's degrees in 1952 and 1954, respectively, standing first throughout his academic career. He completed his Economics Tripos at University of Cambridge in 1957. He was a member of St John's College."
+            ],
+            "works":[
+                "After completing his D.Phil., Singh returned to India. He was a senior lecturer of economics at Panjab University from 1957 to 1959. During 1959 and 1963, he served as a reader in economics at Panjab University, and from 1963 to 1965, he was an economics professor there."
+            ],
+            "other legacies":{
+
+                }},
+        "Indira":{"name": "",
+            "tag line" : "",
+            "nationality":"",
+            "dob": "",
+            "birth place":"",
+            "introduction":{
+
+                },
+            "education":{
+                
+            },
+            "works":{
+
+                },
+            "other legacies":{
+
+                }},
+        "Rajendra":{"name": "",
+            "tag line" : "",
+            "nationality":"",
+            "dob": "",
+            "birth place":"",
+            "introduction":{
+
+                },
+            "education":{
+                
+            },
+            "works":{
+
+                },
+            "other legacies":{
+
+                }}
+    }
+}
