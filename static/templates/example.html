@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+</head>
+<body>
+    {# Example of using variables #}
+    <h1>Welcome, {{ user.username }}</h1>
+
+    {# Example of using a conditional statement #}
+    {% if is_authenticated %}
+        <p>You are authenticated.</p>
+    {% else %}
+        <p>You are not authenticated.</p>
+    {% endif %}
+
+    {# Example of using a for loop #}
+    <ul>
+        {% for item in items %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+
+    {# Example of using template inheritance and include #}
+    {% comment %} {% extends "base.html" %} {% endcomment %}
+    {% block content %}
+        <p>This is additional content specific to the example page.</p>
+        {% comment %} {% include "footer.html" %} {% endcomment %}
+    {% endblock %}
+</body>
+</html>
