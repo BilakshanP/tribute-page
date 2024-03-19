@@ -1,8 +1,8 @@
 import os
 
-from typing import Any, Callable
+from typing import Any, Callable, Optional
 
-def replace_value(dictionary: dict[str, Any], predicate: Callable[[Any], bool], transformer: Callable[[Any], Any], *, key_check: bool = False, key_predicate: Callable[[Any], bool]|None = None) -> None:
+def replace_value(dictionary: dict[str, Any], predicate: Callable[[Any], bool], transformer: Callable[[Any], Any], *, key_check: bool = False, key_predicate: Optional[Callable[[Any], bool]] = None) -> None:
     """
     Recursively replaces occurrences of old_value with transformed new_value in nested dictionaries.
 
