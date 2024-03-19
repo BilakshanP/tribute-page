@@ -1,15 +1,15 @@
 {
-    "version": 2,
-    "builds": [
-        {
-            "src": "manage.py",
-            "use": "@vercel/python"
+    "builds": [{
+        "src": "tributepage/wsgi.py",
+        "use": "@vercel/python",
+        "config": {
+            "maxLambdaSize": "15mb"
         }
-    ],
+    }],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/manage.py"
+            "dest": "tributepage/wsgi.py"
         }
     ],
     "env": {
