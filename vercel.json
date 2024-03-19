@@ -1,17 +1,30 @@
 {
-    "builds": [{
-        "src": "tributepage/wsgi.py",
-        "use": "@vercel/python",
-        "config": {
-            "maxLambdaSize": "15mb",
-            "includeFiles": "static/**"
+    "version": 2,
+    "builds": [
+        {
+            "src": "tributepage/wsgi.py",
+            "use": "@vercel/python",
+            "config": {
+                "maxLambdaSize": "15mb",
+                "pythonVersion": "3.9"
+            }
+        },
+        {
+            "src": "build.sh",
+            "use": "@vercel/static-build",
+            "config": {
+                "distDir": "staticfiles_build"
+            }
         }
-    }],
-    "routes": [
-        { "src": "/static/(.*)", "dest": "/static/$1" },
-        { "src": "/(.*)", "dest": "tributepage/wsgi.py" }
     ],
-    "env": {
-        "DJANGO_SETTINGS_MODULE": "tributepage.settings"
-    }
+    "routes": [
+        {
+            "src": "/static/(.*)",
+            "dest": "/static/$1"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/tributepage/wsgi.py"
+        }
+    ]
 }
