@@ -20,3 +20,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# dummy.jpg <--> https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg

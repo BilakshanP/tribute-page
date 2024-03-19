@@ -9,7 +9,7 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Bernhard_Riemann",
     "image": {
         "main": {
-            "src": "dummy.jpg",
+            "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
             "alt": "Bernhard Reimann",
             "is_static": false
         }
@@ -30,7 +30,7 @@
             "title": "Education",
             "description": "Reimann studied at the University of Göttingen, where he attended lectures by prominent mathematicians such as Gauss and Dirichlet. He later continued his studies at the University of Berlin under the guidance of Jacobi and Steiner.",
             "image": {
-                "src": "dummy.jpg",
+                "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
                 "alt": "University of Berlin",
                 "is_static": false
             }
