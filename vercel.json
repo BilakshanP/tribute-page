@@ -1,15 +1,18 @@
 {
-    "builds": [{
-        "src": "tributepage/wsgi.py",
-        "use": "@vercel/python",
-        "config": {
-            "maxLambdaSize": "15mb"
+    "version": 2,
+    "builds": [
+        {
+            "src": "manage.py",
+            "use": "@vercel/python"
         }
-    }],
+    ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "tributepage/wsgi.py"
+            "dest": "/manage.py"
         }
-    ]
+    ],
+    "env": {
+        "DJANGO_SETTINGS_MODULE": "tributepage.settings"
+    }
 }
