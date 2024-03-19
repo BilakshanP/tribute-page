@@ -1,0 +1,161 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" class="sr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon shortcut" type="image/png" href="{% static 'profile/favicon.png' %}" />
+    <title>{{ name.title }} | {{ category }}</title>
+    <meta name="keywords" content="tribute page, srinivasa, skill" />
+    <meta name="description" content="[Your name here] | Developer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="{% static 'styles/profile-index.css' %}" />
+    <link rel="stylesheet" href="{% static 'styles/profile-style.css' %}" />
+    <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body>
+    <div id="top"></div>
+    <section id="hero" class="jumbotron">
+        <div class="container">
+            <h1 class="hero-title load-hidden">
+                <span class="name-heading">
+                    <span class="first-name">{{ name.underlined }}</span>
+                    <span class="text-color-main">{{ name.colored }}</span>
+                </span>
+
+                <br />
+
+                <span class="tagline">{{ tagline }}</span>
+
+                <!-- <br /> -->
+
+                <!-- <span class="small-heading">22 December 1887 - 26 April 1920 | Indian | Mathematician</span> -->
+            </h1>
+            <p class="hero-cta load-hidden">
+                <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">
+                    Know more
+                </a>
+            </p>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2 class="load-hidden section-title">Introduction</h2>
+            <div class="about-wrapper row">
+                {% if image %}
+                <div class="col-md-6 col-sm-12">
+                    <div class="about-wrapper__image load-hidden">
+                        <img alt="{{ image.alt }}" class="img-fluid rounded shadow-lg" height="auto" width="300px"
+                        {% if image.main.is_static %}
+                            src="{% static image.main.src %}"
+                        {% else %}
+                            src="{{ image.main.src }}"
+                        {% endif %}>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                {% else %}
+                <div class="col-sm-12">
+                {% endif %}
+                    <div class="about-wrapper__info load-hidden">
+                        <p class="about-wrapper__info-text">{{ data.summary.p1 }}</p>
+                        <p class="about-wrapper__info-text">{{ data.summary.p2 }}</p>
+                        <span class="d-flex mt-3"> <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
+                                href="{{ wikipedia }}"> Wikipedia </a> </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="project-wrapper">
+                <h2 class="dark-blue-text section-title">Life, Awards and Achievements</h2>
+
+                {% for item in life_awards_and_achievements %}
+
+                <div class="row">
+                    {% if item.image %}
+                    <div class="col-lg-4 col-sm-12">
+                    {% else %}
+                    <div class="col-sm-12">
+                    {% endif %}
+                        <div class="load-hidden project-wrapper__text">
+                            <h3 class="project-wrapper__text-title">
+                                {{ item.title }}
+                                {% if item.year %}
+                                    ({{ item.year }})
+                                {% endif %}
+                            </h3>
+                            <div>
+                                <p class="mb-4">
+                                    {{ item.description }}
+                                </p>
+                            </div>
+                            {% if item.links %}
+                                {% for button in item.links.button %}
+                                    {% if button %}
+                                        <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="{{ button.src }}"> {{ button.text }} </a>
+                                    {% endif %}
+                                {% endfor %}
+                                {% for reference in item.links.reference %}
+                                    {% if reference %}
+                                        <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="{{ reference.src }}"> {{ reference.text }} </a>
+                                    {% endif %}
+                                {% endfor %}
+                            {% endif %}
+                        </div>
+                    </div>
+
+                    {% if item.image %}
+                    <div class="col-lg-8 col-sm-12">
+                        <div class="load-hidden project-wrapper__image">
+                            <a rel="noreferrer" href="#!" target="_blank">
+                                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="js-tilt rounded thumbnail">
+                                    <img alt="{{ item.image.alt }}" class="img-fluid"
+                                        {% if item.image.is_static %}   
+                                            src="{% static 'profile/project.jpg' %}"
+                                        {% else %}
+                                            src="{{ item.image.src }}" />
+                                        {% endif %}
+                                </div>
+                            </a>
+                        </div>
+                    </div> 
+                    {% endif %}
+                </div>
+
+                {% endfor %}
+    </section>
+    {% comment %} <section id="contact">
+        <div class="container">
+            <h2 class="section-title">GitHub</h2>
+            <div class="contact-wrapper load-hidden">
+                <p class="contact-wrapper__text">About Us</p>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:example@email.com">Call
+                    to Action</a>
+            </div>
+        </div>
+    </section> {% endcomment %}
+    <footer class="footer navbar-static-bottom">
+        <div class="container">
+            <a rel="noreferrer" href="#top" class="back-to-top"> <i class="fa fa-2x fa-angle-up" aria-hidden="true"></i>
+            </a>
+            <div class="social-links">
+                <a rel="noreferrer" href="#!" target="_blank"> <i class="fa fa-inverse fa-twitter"></i> </a> <a
+                    rel="noreferrer" href="#!" target="_blank"> <i class="fa fa-inverse fa-linkedin"></i> </a>
+                <a rel="noreferrer" href="https://github.com/bilakshanp/tribute-page" target="_blank"> <i class="fa fa-github fa-inverse"></i> </a>
+            </div>
+            <hr />
+            <p class="footer__text">© 2024 - <a rel="noreferrer" href="#!" target="_blank"> BilakshanP </a></p>
+        </div>
+    </footer>
+    <script defer type="module" src="{% static 'scripts/profile-index.js' %}"></script>
+</body>
+
+</html>
