@@ -1,0 +1,70 @@
+{
+    "name": {
+        "title": "Narendra Modi",
+        "underlined": "Narendra Damodardas",
+        "colored": "Modi"
+    },
+    "category": "Politician",
+    "tagline": "Prime Minister of India",
+    "wikipedia": "https://en.wikipedia.org/wiki/Narendra_Modi",
+    "image": {
+        "main": {
+            "src": "dummy.jpg",
+            "alt": "Narendra Modi",
+            "is_static": false
+        }
+    },
+    "data": {
+        "summary": {
+            "p1": "Narendra Damodardas Modi is an Indian politician serving as the 14th and current Prime Minister of India since May 2014. He was the Chief Minister of Gujarat from 2001 to 2014 and is a Member of Parliament for Varanasi.",
+            "p2": "Modi is a member of the Bharatiya Janata Party (BJP) and the Rashtriya Swayamsevak Sangh (RSS), a Hindu nationalist volunteer organization. He is known for his work as a Chief Minister in the development of the state of Gujarat and his ambitious economic policies as Prime Minister."
+        }
+    },
+    "life_awards_and_achievements": [
+        {
+            "title": "Time and Place of Birth",
+            "description": "Narendra Modi was born on 17 September 1950 in Vadnagar, a small town in Mehsana district, Bombay State (present-day Gujarat). His father, Damodardas Mulchand Modi, ran a tea stall, and his mother, Hiraben Modi, worked as a domestic helper.",
+            "image": {
+                "src": "dummy.jpg",
+                "alt": "Narendra Modi",
+                "is_static": false
+            }
+        },
+        {
+            "title": "Education",
+            "description": "Modi completed his higher secondary education in Vadnagar and then graduated with a Bachelor of Arts degree from the University of Delhi. He worked for some time with the Rashtriya Swayamsevak Sangh (RSS), a Hindu nationalist organization, before joining politics full-time.",
+            "image": {
+                "src": "dummy.jpg",
+                "alt": "Narendra Modi",
+                "is_static": false
+            }
+        },
+        {
+            "title": "Political Career",
+            "description": "Modi joined the Bharatiya Janata Party (BJP) in 1987 and quickly rose through the ranks. He served as the Chief Minister of Gujarat from 2001 to 2014, during which he implemented several economic and social reforms. In 2014, he was elected as the Prime Minister of India, leading the BJP to a historic victory.",
+            "image": {
+                "src": "dummy.jpg",
+                "alt": "Narendra Modi",
+                "is_static": false
+            }
+        },
+        {
+            "title": "Awards and Achievements",
+            "description": "Modi has received several awards and accolades throughout his political career. These include being named one of Time magazine's 100 most influential people multiple times and receiving various honors from foreign governments.",
+            "image": {
+                "src": "dummy.jpg",
+                "alt": "Narendra Modi",
+                "is_static": false
+            }
+        },
+        {
+            "title": "Legacy",
+            "description": "Narendra Modi's legacy as Prime Minister of India is still evolving. He is known for his strong leadership, economic reforms, and initiatives such as 'Make in India' and 'Swachh Bharat Abhiyan'. His policies have sparked both praise and criticism, but his impact on Indian politics and society is undeniable.",
+            "image": {
+                "src": "dummy.jpg",
+                "alt": "Narendra Modi",
+                "is_static": false
+            }
+        }
+    ]
+}

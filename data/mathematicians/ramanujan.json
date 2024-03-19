@@ -33,7 +33,7 @@
         },
         {
             "title": "Education",
-            "description": "In 1910, Ramanujan met deputy collector V. Ramaswamy Aiyer, who founded the Indian Mathematical Society.[52] Wishing for a job at the revenue department where Aiyer worked, Ramanujan showed him his mathematics notebooks.",
+            "description": "In 1910, Ramanujan met deputy collector V. Ramaswamy Aiyer, who founded the Indian Mathematical Society. Wishing for a job at the revenue department where Aiyer worked, Ramanujan showed him his mathematics notebooks.",
             "links": {
                 "button": [
                     {
@@ -47,6 +47,31 @@
                 "alt": "V. Ramaswamy Aiyer",
                 "is_static": false
             }
+        },
+        {
+            "title": "Death",
+            "year": 1920,
+            "description": "Ramanujan tragically succumbed to illness, malnutrition, and possibly liver infection in 1920, at the tender age of 32. Despite his deteriorating health, his indomitable spirit persisted till the end. His final letters to Hardy, scribed in January 1920, not only conveyed his physical struggles but also illuminated his unwavering dedication to his craft. Even in his most trying moments, Ramanujan's mind remained ablaze with the spark of creativity, as he continued to conceive groundbreaking mathematical ideas and theorems, leaving an enduring legacy that transcends the confines of time."
+        },
+        {
+            "title": "Awards and Achievements",
+            "description": "Ramanujan was awarded a Bachelor of Science degree by research (this degree was later renamed PhD) in March 1916 for his work on highly composite numbers, the first part of which was published as a paper in the Proceedings of the London Mathematical Society. He was elected a Fellow of the Royal Society in 1918, the second Indian admitted to the Royal Society, following Ardaseer Cursetjee in 1841. He was the first Indian to be elected a Fellow of Trinity College, Cambridge. The Ramanujan Journal, a peer-reviewed scientific journal, was established to publish work in all areas of mathematics influenced by Ramanujan."
+        },
+        {
+            "title": "Legacy",
+            "description": "Ramanujan's legacy in mathematics is profound. His work continues to inspire mathematicians and researchers worldwide. Many of his theorems and formulas have applications in various branches of mathematics, including number theory, analysis, and mathematical physics. The Ramanujan-Hardy number, for instance, is a famous example of his contributions to the theory of numbers. His story also serves as a beacon of hope, illustrating the power of raw talent and perseverance in the face of adversity."
+        },
+        {
+            "title": "Influence on Modern Mathematics",
+            "description": "Ramanujan's influence on modern mathematics is immeasurable. His discoveries in number theory, including his work on partitions and modular forms, have had profound impacts on various fields, such as cryptography, computer science, and theoretical physics. The Ramanujan conjecture, proposed by him, remains one of the most challenging and significant open problems in mathematics."
+        },
+        {
+            "title": "Popular Culture",
+            "description": "Ramanujan's life and work have been the subject of various literary and cinematic adaptations. The biography 'The Man Who Knew Infinity' by Robert Kanigel and the subsequent film adaptation starring Dev Patel and Jeremy Irons brought his story to a wide audience. These portrayals have helped popularize Ramanujan's contributions and brought attention to his remarkable achievements."
+        },
+        {
+            "title": "Mathematical Contributions",
+            "description": "Ramanujan made numerous groundbreaking contributions to mathematics during his short life. His work on infinite series, modular forms, and elliptic functions revolutionized several areas of mathematics. Some of his most famous results include the Ramanujan conjectures, Ramanujan primes, and the Ramanujan theta function, all of which continue to be studied intensively by mathematicians worldwide."
         }
     ]
 }

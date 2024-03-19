@@ -47,6 +47,7 @@
         <div class="container">
             <h2 class="load-hidden section-title">Introduction</h2>
             <div class="about-wrapper row">
+                {% if image %}
                 <div class="col-md-6 col-sm-12">
                     <div class="about-wrapper__image load-hidden">
                         <img alt="{{ image.alt }}" class="img-fluid rounded shadow-lg" height="auto" width="300px"
@@ -58,6 +59,9 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12">
+                {% else %}
+                <div class="col-sm-12">
+                {% endif %}
                     <div class="about-wrapper__info load-hidden">
                         <p class="about-wrapper__info-text">{{ data.summary.p1 }}</p>
                         <p class="about-wrapper__info-text">{{ data.summary.p2 }}</p>
@@ -76,7 +80,11 @@
                 {% for item in life_awards_and_achievements %}
 
                 <div class="row">
+                    {% if item.image %}
                     <div class="col-lg-4 col-sm-12">
+                    {% else %}
+                    <div class="col-sm-12">
+                    {% endif %}
                         <div class="load-hidden project-wrapper__text">
                             <h3 class="project-wrapper__text-title">
                                 {{ item.title }}
@@ -104,6 +112,7 @@
                         </div>
                     </div>
 
+                    {% if item.image %}
                     <div class="col-lg-8 col-sm-12">
                         <div class="load-hidden project-wrapper__image">
                             <a rel="noreferrer" href="#!" target="_blank">
@@ -117,7 +126,8 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </div> 
+                    {% endif %}
                 </div>
 
                 {% endfor %}

@@ -1,0 +1,59 @@
+{
+    "name": {
+        "title": "Richard Feynman",
+        "underlined": "Richard",
+        "colored": "Feynman"
+    },
+    "category": "Physicist",
+    "tagline": "The Great Explainer",
+    "wikipedia": "https://en.wikipedia.org/wiki/Richard_Feynman",
+    "image": {
+        "main": {
+            "src": "dummy.jpg",
+            "alt": "Richard Feynman",
+            "is_static": true
+        }
+    },
+    "data": {
+        "summary": {
+            "p1": "Richard Phillips Feynman was an American theoretical physicist, known for his work in the path integral formulation of quantum mechanics, the theory of quantum electrodynamics, and the physics of the superfluidity of supercooled liquid helium, as well as in particle physics for which he proposed the parton model.",
+            "p2": "Feynman was a keen popularizer of physics through both his books and lectures, notably a 1959 talk on top-down nanotechnology called There's Plenty of Room at the Bottom and The Feynman Lectures on Physics. Feynman also became known through his semi-autobiographical books Surely You're Joking, Mr. Feynman! and What Do You Care What Other People Think?"
+        }
+    },
+    "life_awards_and_achievements": [
+        {
+            "title": "Time and Place of Birth",
+            "year": 1918,
+            "description": "Richard Feynman was born on May 11, 1918, in Queens, New York City, USA, into a Jewish family."
+        },
+        {
+            "title": "Education",
+            "description": "Feynman received his bachelor's degree from the Massachusetts Institute of Technology in 1939, and his Ph.D. from Princeton University in 1942, where he researched the path integral formulation of quantum mechanics under the supervision of John Archibald Wheeler."
+        },
+        {
+            "title": "Death",
+            "year": 1988,
+            "description": "Richard Feynman passed away on February 15, 1988, in Los Angeles, California, USA, at the age of 69, after battling cancer."
+        },
+        {
+            "title": "Awards and Achievements",
+            "description": "Feynman received the Nobel Prize in Physics in 1965 for his contributions to the development of quantum electrodynamics. He was also awarded the Albert Einstein Award, the Oersted Medal, and the National Medal of Science, among others."
+        },
+        {
+            "title": "Legacy",
+            "description": "Richard Feynman left behind a legacy of brilliant contributions to theoretical physics, as well as a reputation for his charismatic teaching style and unconventional approach to problem-solving. His diagrams, known as Feynman diagrams, revolutionized the field of theoretical physics."
+        },
+        {
+            "title": "Influence on Modern Physics",
+            "description": "Feynman's work continues to influence modern physics, particularly in the fields of quantum mechanics and particle physics. His lectures and books remain popular among physicists and students, inspiring future generations of scientists."
+        },
+        {
+            "title": "Popular Culture",
+            "description": "Richard Feynman's life and work have been featured in various books, documentaries, and films. His engaging personality and profound insights into the nature of the universe have made him a beloved figure in popular culture."
+        },
+        {
+            "title": "Scientific Contributions",
+            "description": "Feynman made significant contributions to various areas of physics, including quantum mechanics, quantum electrodynamics, and particle physics. His Feynman diagrams and the path integral formulation of quantum mechanics are among his most influential discoveries."
+        }
+    ]
+}
