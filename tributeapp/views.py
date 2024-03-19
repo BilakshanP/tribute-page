@@ -1,29 +1,32 @@
 from django.shortcuts import render
 from django.http import HttpResponse, HttpRequest
 
-def root(request: HttpRequest):
-    return HttpResponse("""
-                        <span style="font-size: 20px; font-family: 'Arial'; font-weight: bold; color: #333;">
-                            This is the root route, and is undefined.
-                        </span>
+# def root(request: HttpRequest):
+#     return HttpResponse("""
+#                         <span style="font-size: 20px; font-family: 'Arial'; font-weight: bold; color: #333;">
+#                             This is the root route, and is undefined.
+#                         </span>
 
-                        <br><br>
+#                         <br><br>
 
-                        """
-                        +
+#                         """
+#                         +
                         
-                        # <a href="/route/a/">Route A</a>
-                        # <br>
-                        # <a href="/route/b/">Route B</a>
-                        # <br>
-                        # <a href="/example/">Example</a>
-                        # <br>
-                        # <a href="/test/">Test</a>
-                        # <br>
+#                         # <a href="/route/a/">Route A</a>
+#                         # <br>
+#                         # <a href="/route/b/">Route B</a>
+#                         # <br>
+#                         # <a href="/example/">Example</a>
+#                         # <br>
+#                         # <a href="/test/">Test</a>
+#                         # <br>
 
-                        """
-                        <a href="/tribute/profile/">Test 2</a>
-                        """)
+#                         """
+#                         <a href="/tribute/profile/">Test 2</a>
+#                         """)
+
+def root(request: HttpRequest):
+    return render(request, 'static/templates/index.html', {})
 
 # def route_a(request: HttpRequest):
 #     context = {
@@ -43,7 +46,7 @@ def root(request: HttpRequest):
 #         'items': ['Apple', 'Banana', 'Orange'],
 #         'is_authenticated': True,
 #     }
-#     return render(request, 'static/templates/example.html', context)
+#     return render(request, 'static/templates/profile.html', context)
 
 # def test(request: HttpRequest):
 #     return render(request, 'static_test/test.html', {})

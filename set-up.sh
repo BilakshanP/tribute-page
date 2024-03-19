@@ -1,6 +1,9 @@
-# django-admin startproject tributepage
-# mv tributepage tribute-page
+# mkdir tribute-page
 # cd tribute-page
+# python3 -m venv .venv
+# source .venv/bin/activate
+# pip install django
+# django-admin startproject tributepage
 # python3 manage.py startapp tributeapp
 
 if [ ! -d ".venv" ]; then

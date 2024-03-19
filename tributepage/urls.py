@@ -20,6 +20,8 @@ from django.urls import path, include
 from tributeapp import urls
 
 urlpatterns = [
+    path('', include(urls.root)),
+
     path('admin/', admin.site.urls),
     path('tribute/', include(urls.urlpatterns)) # include('tributeapp.urls')
 ]

@@ -1,0 +1,40 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome...</title>
+
+    <link rel="stylesheet" href="{% static 'styles/index.css' %}">
+
+    <script src="{% static 'scripts/index.js' %}" defer> </script>
+</head>
+
+<body>
+    <div id="menu">
+        <ul class="menu-items">
+            <li class="menu-item"><a href="#">Theatre and Films</a></li>
+            <li class="menu-item"><a href="#">Sports and Writing</a></li>
+            <li class="menu-item"><a href="#">Science and Technology</a></li>
+            <li class="menu-item"><a href="#">Entrepreneurs and Politicians</a></li>
+            <li class="menu-item"><a href="#">Miscellaneous</a></li>
+        </ul>
+        <div id="bg-pattern" class="menu-background-pattern"></div>
+        <div class="menu-background-image"></div>
+    </div>
+
+    <!-- <a id="source-link" class="meta-link" href="http://dnacapital.com" target="_blank">
+        <i class="fa-solid fa-link"></i>
+        <span>Inspiration</span>
+    </a> -->
+
+    <!-- <a id="yt-link" class="meta-link" href="https://youtu.be/NUeCNvYY_x4" target="_blank">
+        <i class="fa-brands fa-youtube"></i>
+        <span>2.5 min tutorial</span>
+    </a> -->
+</body>
+
+</html>
