@@ -3,14 +3,13 @@
         "src": "tributepage/wsgi.py",
         "use": "@vercel/python",
         "config": {
-            "maxLambdaSize": "15mb"
+            "maxLambdaSize": "15mb",
+            "includeFiles": "static/**"
         }
     }],
     "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "tributepage/wsgi.py"
-        }
+        { "src": "/static/(.*)", "dest": "/static/$1" },
+        { "src": "/(.*)", "dest": "tributepage/wsgi.py" }
     ],
     "env": {
         "DJANGO_SETTINGS_MODULE": "tributepage.settings"
