@@ -1,0 +1,105 @@
+{
+    "name": {
+        "title": "Ramanujan Srinivasan",
+        "underlined": "Srinivasa Iyengar",
+        "colored": "Ramanujan"
+    },
+    "category": "Mathematician",
+    "tagline": "The Man Who Knew Infinity",
+    "wikipedia": "https://en.wikipedia.org/wiki/Srinivasa_Ramanujan",
+    "image": {
+        "main": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Srinivasa_Ramanujan-Add._MS_a94_version2.jpg",
+            "alt": "Ramanujan in 1920",
+            "is_static": false
+        }
+    },
+    "data": {
+        "summary": {
+            "p1": "Srinivasa Ramanujan FRS was an Indian mathematician who lived during the British Rule in India. Though he had almost no formal training in pure mathematics, he made substantial contributions to mathematical analysis, number theory, infinite series, and continued fractions, including solutions to mathematical problems considered to be unsolvable.",
+            "p2": "Ramanujan initially developed his own mathematical research in isolation; it was quickly recognized by Indian mathematicians. Seeking mathematicians who could better understand his work, in 1913 he began a postal partnership with the English mathematician G. H. Hardy at the University of Cambridge, England. Recognizing the extraordinary work sent to him as samples, Hardy arranged travel for Ramanujan to Cambridge. In his notes, Hardy commented that Ramanujan had produced groundbreaking new theorems, including some that Hardy stated had defeated him and his colleagues, in addition to rediscovering recently proven but highly advanced results."
+        }
+    },
+    "life_awards_and_achievements": [
+        {
+            "title": "Time and Place of Birth",
+            "year": 1887,
+            "description": "Ramanujan (literally, \"younger brother of Rama\", a Hindu deity) was born on 22 December 1887 into a Tamil Brahmin Iyengar family in Erode, in present-day Tamil Nadu. His father, Kuppuswamy Srinivasa Iyengar, originally from Thanjavur district, worked as a clerk in a sari shop. His mother, Komalatammal, was a housewife and sang at a local temple.",
+            "links": {
+                "button": [
+                    {
+                        "text": "Test 1",
+                        "src": "https://www.example.com"
+                    }
+                ],
+                "reference": [
+                    {
+                        "text": "Test 2",
+                        "src": "https://www.google.com"
+                    }
+                ]
+            },
+            "image": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Srinivasa_Ramanujan_1962_stamp_of_India.jpg/300px-Srinivasa_Ramanujan_1962_stamp_of_India.jpg",
+                "alt": "Royal Society Logo",
+                "is_static": false
+            }
+        },
+        {
+            "title": "Fellow of Trinity College, Cambridge",
+            "year": 1918,
+            "description": "Trinity College is a constituent college of the University of Cambridge in England. With around 600 undergraduates, 300 graduates, and over 180 fellows, it is the largest college in either of the Oxbridge universities by number of undergraduates.",
+            "links": {
+                "button": [
+                    {
+                        "text": "Test 1",
+                        "src": "https://www.example.com"
+                    },
+                    {
+                        "text": "Test 2",
+                        "src": "https://www.google.com"
+                    }
+                ],
+                "reference": [
+                    {
+                        "text": "Test 2",
+                        "src": "https://www.google.com"
+                    }
+                ]
+            },
+            "image": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Srinivasa_Ramanujan-Add._MS_a94_version2.jpg",
+                "alt": "Trinity College, Cambridge Coat of Arms",
+                "is_static": false
+            }
+        },
+        {
+            "title": "Fellow of the Indian Academy of Sciences",
+            "year": 1930,
+            "description": "The Indian Academy of Sciences, Bangalore was founded by C. V. Raman, and was registered as a society on 24 April 1934. Inaugurated on 31 July 1934, it began with 65 founding fellows. The first general meeting of Fellows, held on the same day, elected Professor Raman as President, and adopted the constitution of the Academy.",
+            "links": {
+                "button": [
+                    {
+                        "text": "Test 1",
+                        "src": "https://www.example.com"
+                    }
+                ],
+                "reference": [
+                    {
+                        "text": "Test 2",
+                        "src": "https://www.google.com"
+                    },
+                    {
+                        "text": "Test 3",
+                        "src": "https://www.google.com"
+                    }
+                ]
+            },
+            "image": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Srinivasa_Ramanujan-Add._MS_a94_version2.jpg",
+                "alt": "Indian Academy of Sciences Logo",
+                "is_static": false
+            }
+        }
+    ]
+}

@@ -78,7 +78,12 @@
                 <div class="row">
                     <div class="col-lg-4 col-sm-12">
                         <div class="load-hidden project-wrapper__text">
-                            <h3 class="project-wrapper__text-title">{{ item.title }} ({{ item.year }})</h3>
+                            <h3 class="project-wrapper__text-title">
+                                {{ item.title }}
+                                {% if item.year %}
+                                    ({{ item.year }})
+                                {% endif %}
+                            </h3>
                             <div>
                                 <p class="mb-4">
                                     {{ item.description }}
@@ -117,16 +122,16 @@
 
                 {% endfor %}
     </section>
-    <section id="contact">
+    {% comment %} <section id="contact">
         <div class="container">
-            <h2 class="section-title">Contact</h2>
+            <h2 class="section-title">GitHub</h2>
             <div class="contact-wrapper load-hidden">
-                <p class="contact-wrapper__text">[Put your call to action here]</p>
+                <p class="contact-wrapper__text">About Us</p>
                 <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:example@email.com">Call
                     to Action</a>
             </div>
         </div>
-    </section>
+    </section> {% endcomment %}
     <footer class="footer navbar-static-bottom">
         <div class="container">
             <a rel="noreferrer" href="#top" class="back-to-top"> <i class="fa fa-2x fa-angle-up" aria-hidden="true"></i>
@@ -134,11 +139,10 @@
             <div class="social-links">
                 <a rel="noreferrer" href="#!" target="_blank"> <i class="fa fa-inverse fa-twitter"></i> </a> <a
                     rel="noreferrer" href="#!" target="_blank"> <i class="fa fa-inverse fa-linkedin"></i> </a>
-                <a rel="noreferrer" href="#!" target="_blank"> <i class="fa fa-github fa-inverse"></i> </a>
+                <a rel="noreferrer" href="https://github.com/bilakshanp/tribute-page" target="_blank"> <i class="fa fa-github fa-inverse"></i> </a>
             </div>
             <hr />
-            <p class="footer__text">© 2021 - Template developed by <a rel="noreferrer"
-                    href="https://github.com/cobiwave" target="_blank">Jacobo Martínez</a></p>
+            <p class="footer__text">© 2024 - <a rel="noreferrer" href="#!" target="_blank"> BilakshanP </a></p>
         </div>
     </footer>
     <script defer type="module" src="{% static 'profile/index.js' %}"></script>

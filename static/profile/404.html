@@ -1,0 +1,62 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" class="sr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon shortcut" type="image/png" href="{% static 'profile/favicon.png' %}" />
+    <title>Not Found | 404</title>
+    <meta name="keywords" content="tribute page, srinivasa, skill" />
+    <meta name="description" content="[Your name here] | Developer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="{% static 'profile/index.css' %}" />
+    <link rel="stylesheet" href="{% static 'profile/style.css' %}" />
+    <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body>
+    <div id="top"></div>
+    <section id="hero" class="jumbotron">
+        <div class="container">
+            <h1 class="hero-title load-hidden">
+                <span class="name-heading">
+                    <span class="first-name">Well...</span>
+                    <span class="text-color-main">We didn't find anything.</span>
+                </span>
+
+                <br />
+
+                <span class="tagline">But! You found me! <span class="text-color-main">&lt;3</span></span>
+
+                <!-- <br /> -->
+
+                <!-- <span class="small-heading">22 December 1887 - 26 April 1920 | Indian | Mathematician</span> -->
+            </h1>
+            <p class="hero-cta load-hidden">
+                <a rel="noreferrer" class="cta-btn cta-btn--hero" href="https://en.wikipedia.org/wiki/HTTP_404">
+                    Know more
+                </a>
+            </p>
+        </div>
+    </section>
+    <footer class="footer navbar-static-bottom">
+        <div class="container">
+            <a rel="noreferrer" href="#top" class="back-to-top"> <i class="fa fa-2x fa-angle-up" aria-hidden="true"></i>
+            </a>
+            <div class="social-links">
+                <a rel="noreferrer" href="#!" target="_blank"> <i class="fa fa-inverse fa-twitter"></i> </a> <a
+                    rel="noreferrer" href="#!" target="_blank"> <i class="fa fa-inverse fa-linkedin"></i> </a>
+                <a rel="noreferrer" href="https://github.com/bilakshanp/tribute-page" target="_blank"> <i class="fa fa-github fa-inverse"></i> </a>
+            </div>
+            <hr />
+            <p class="footer__text">© 2024 - <a rel="noreferrer" href="#!" target="_blank"> BilakshanP </a></p>
+        </div>
+    </footer>
+    <script defer type="module" src="{% static 'profile/index.js' %}"></script>
+</body>
+
+</html>
