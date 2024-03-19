@@ -11,7 +11,7 @@
         "main": {
             "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
             "alt": "Richard Feynman",
-            "is_static": true
+            "is_static": false
         }
     },
     "data": {

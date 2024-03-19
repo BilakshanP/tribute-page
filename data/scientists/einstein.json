@@ -11,7 +11,7 @@
         "main": {
             "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
             "alt": "Albert Einstein",
-            "is_static": true
+            "is_static": false
         }
     },
     "data": {
@@ -28,7 +28,7 @@
             "image": {
                 "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
                 "alt": "Albert Einstein as a young boy",
-                "is_static": true
+                "is_static": false
             }
         },
         {
@@ -37,7 +37,7 @@
             "image": {
                 "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
                 "alt": "Einstein at the Swiss Federal Polytechnic School",
-                "is_static": true
+                "is_static": false
             }
         },
         {
@@ -47,7 +47,7 @@
             "image": {
                 "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
                 "alt": "Albert Einstein",
-                "is_static": true
+                "is_static": false
             }
         },
         {
@@ -56,7 +56,7 @@
             "image": {
                 "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
                 "alt": "Albert Einstein with the Nobel Prize",
-                "is_static": true
+                "is_static": false
             }
         },
         {
@@ -65,7 +65,7 @@
             "image": {
                 "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
                 "alt": "Albert Einstein",
-                "is_static": true
+                "is_static": false
             }
         },
         {
@@ -74,7 +74,7 @@
             "image": {
                 "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
                 "alt": "Albert Einstein",
-                "is_static": true
+                "is_static": false
             }
         },
         {
@@ -83,7 +83,7 @@
             "image": {
                 "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
                 "alt": "Albert Einstein caricature",
-                "is_static": true
+                "is_static": false
             }
         },
         {
@@ -92,7 +92,7 @@
             "image": {
                 "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
                 "alt": "Albert Einstein",
-                "is_static": true
+                "is_static": false
             }
         }
     ]
