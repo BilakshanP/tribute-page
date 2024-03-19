@@ -8,11 +8,9 @@
     "tagline": "The Father of Modern Physics",
     "wikipedia": "https://en.wikipedia.org/wiki/Albert_Einstein",
     "image": {
-        "main": {
-            "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
-            "alt": "Albert Einstein",
-            "is_static": false
-        }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg/330px-Einstein_1921_by_F_Schmutzer_-_restoration.jpg",
+        "alt": "Albert Einstein",
+        "is_static": false
     },
     "data": {
         "summary": {
@@ -26,7 +24,7 @@
             "year": 1879,
             "description": "Albert Einstein was born on 14 March 1879 in the city of Ulm in the Kingdom of Württemberg in the German Empire. His parents were Hermann Einstein, a salesman and engineer, and Pauline Koch.",
             "image": {
-                "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Albert_Einstein_at_the_age_of_three_%281882%29.jpg/255px-Albert_Einstein_at_the_age_of_three_%281882%29.jpg",
                 "alt": "Albert Einstein as a young boy",
                 "is_static": false
             }
@@ -35,7 +33,7 @@
             "title": "Education",
             "description": "In 1896, Einstein entered the Swiss Federal Polytechnic School in Zurich to be trained as a teacher in physics and mathematics. He received his diploma in 1900 and Swiss citizenship in the following year.",
             "image": {
-                "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Albert_Einstein_as_a_child.jpg/300px-Albert_Einstein_as_a_child.jpg",
                 "alt": "Einstein at the Swiss Federal Polytechnic School",
                 "is_static": false
             }
@@ -43,18 +41,13 @@
         {
             "title": "Death",
             "year": 1955,
-            "description": "Albert Einstein died on 18 April 1955 at the age of 76 in Princeton, New Jersey, United States, from an abdominal aortic aneurysm. His brain was removed within seven and a half hours of his death by Dr. Thomas Stoltz Harvey, the pathologist on call, without the permission of Einstein's family, in the hope that the neuroscience of the future would be able to discover what made Einstein so intelligent.",
-            "image": {
-                "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
-                "alt": "Albert Einstein",
-                "is_static": false
-            }
+            "description": "Albert Einstein died on 18 April 1955 at the age of 76 in Princeton, New Jersey, United States, from an abdominal aortic aneurysm. His brain was removed within seven and a half hours of his death by Dr. Thomas Stoltz Harvey, the pathologist on call, without the permission of Einstein's family, in the hope that the neuroscience of the future would be able to discover what made Einstein so intelligent."
         },
         {
             "title": "Awards and Achievements",
             "description": "Albert Einstein received the Nobel Prize in Physics in 1921 for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect. He made significant contributions to various theoretical physics fields, including the theory of relativity, quantum mechanics, and statistical mechanics.",
             "image": {
-                "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Solvay_conference_1927.jpg/330px-Solvay_conference_1927.jpg",
                 "alt": "Albert Einstein with the Nobel Prize",
                 "is_static": false
             }
@@ -63,7 +56,7 @@
             "title": "Legacy",
             "description": "Albert Einstein's work has had a lasting impact on various aspects of science and society. His theories of relativity revolutionized our understanding of space, time, and gravity, while his contributions to quantum mechanics paved the way for modern physics. Beyond science, Einstein was an advocate for civil rights, disarmament, and education, leaving behind a legacy of humanitarianism and intellectual curiosity.",
             "image": {
-                "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/M%C3%BCnchen-2021-Deutsches_Museum-Einstein.jpg/330px-M%C3%BCnchen-2021-Deutsches_Museum-Einstein.jpg",
                 "alt": "Albert Einstein",
                 "is_static": false
             }
@@ -72,7 +65,7 @@
             "title": "Influence on Modern Physics",
             "description": "Albert Einstein's theories of relativity and quantum mechanics fundamentally changed the landscape of modern physics. His insights into the nature of space, time, and gravity laid the groundwork for countless discoveries and technological advancements, from GPS systems to black hole physics. Einstein's legacy continues to inspire new generations of physicists and researchers.",
             "image": {
-                "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/1919_eclipse_positive.jpg/255px-1919_eclipse_positive.jpg",
                 "alt": "Albert Einstein",
                 "is_static": false
             }
@@ -81,19 +74,14 @@
             "title": "Popular Culture",
             "description": "Albert Einstein's iconic image and eccentric personality have made him a staple of popular culture. He has been portrayed in numerous films, television shows, and books, often as a symbol of genius and intellectual curiosity. His quotes and sayings are widely circulated and continue to inspire people around the world.",
             "image": {
-                "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
+                "src": "https://upload.wikimedia.org/wikipedia/en/8/86/Einstein_tongue.jpg",
                 "alt": "Albert Einstein caricature",
                 "is_static": false
             }
         },
         {
             "title": "Scientific Contributions",
-            "description": "Albert Einstein's scientific contributions are vast and diverse. His most famous works include the theory of relativity, the photoelectric effect, and the mass–energy equivalence formula E=mc². He also made significant contributions to statistical mechanics, cosmology, and unified field theory. Einstein's theories continue to shape our understanding of the universe and have led to numerous technological innovations.",
-            "image": {
-                "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
-                "alt": "Albert Einstein",
-                "is_static": false
-            }
+            "description": "Albert Einstein's scientific contributions are vast and diverse. His most famous works include the theory of relativity, the photoelectric effect, and the mass–energy equivalence formula E=mc². He also made significant contributions to statistical mechanics, cosmology, and unified field theory. Einstein's theories continue to shape our understanding of the universe and have led to numerous technological innovations."
         }
     ]
 }

@@ -52,9 +52,9 @@
                     <div class="about-wrapper__image load-hidden">
                         <img alt="{{ image.alt }}" class="img-fluid rounded shadow-lg" height="auto" width="300px"
                         {% if image.main.is_static %}
-                            src="{% static image.main.src %}"
+                            src="{% static image.src %}"
                         {% else %}
-                            src="{{ image.main.src }}"
+                            src="{{ image.src }}"
                         {% endif %}>
                     </div>
                 </div>

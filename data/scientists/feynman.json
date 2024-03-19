@@ -8,11 +8,9 @@
     "tagline": "The Great Explainer",
     "wikipedia": "https://en.wikipedia.org/wiki/Richard_Feynman",
     "image": {
-        "main": {
-            "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
-            "alt": "Richard Feynman",
-            "is_static": false
-        }
+        "src": "https://upload.wikimedia.org/wikipedia/en/4/42/Richard_Feynman_Nobel.jpg",
+        "alt": "Richard Feynman",
+        "is_static": false
     },
     "data": {
         "summary": {
@@ -28,7 +26,12 @@
         },
         {
             "title": "Education",
-            "description": "Feynman received his bachelor's degree from the Massachusetts Institute of Technology in 1939, and his Ph.D. from Princeton University in 1942, where he researched the path integral formulation of quantum mechanics under the supervision of John Archibald Wheeler."
+            "description": "Feynman received his bachelor's degree from the Massachusetts Institute of Technology in 1939, and his Ph.D. from Princeton University in 1942, where he researched the path integral formulation of quantum mechanics under the supervision of John Archibald Wheeler.",
+            "image": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Feynman-richard_p.jpg/255px-Feynman-richard_p.jpg",
+                "alt": "Richard Feynman",
+                "is_static": false
+            }
         },
         {
             "title": "Death",
@@ -37,7 +40,12 @@
         },
         {
             "title": "Awards and Achievements",
-            "description": "Feynman received the Nobel Prize in Physics in 1965 for his contributions to the development of quantum electrodynamics. He was also awarded the Albert Einstein Award, the Oersted Medal, and the National Medal of Science, among others."
+            "description": "Feynman received the Nobel Prize in Physics in 1965 for his contributions to the development of quantum electrodynamics. He was also awarded the Albert Einstein Award, the Oersted Medal, and the National Medal of Science, among others.",
+            "image": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Los_Alamos_colloquium.jpg/330px-Los_Alamos_colloquium.jpg",
+                "alt": "Richard Feynman",
+                "is_static": false
+            }
         },
         {
             "title": "Legacy",
@@ -53,7 +61,12 @@
         },
         {
             "title": "Scientific Contributions",
-            "description": "Feynman made significant contributions to various areas of physics, including quantum mechanics, quantum electrodynamics, and particle physics. His Feynman diagrams and the path integral formulation of quantum mechanics are among his most influential discoveries."
+            "description": "Feynman made significant contributions to various areas of physics, including quantum mechanics, quantum electrodynamics, and particle physics. His Feynman diagrams and the path integral formulation of quantum mechanics are among his most influential discoveries.",
+            "image": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RichardFeynman-PaineMansionWoods1984_copyrightTamikoThiel_bw.jpg/330px-RichardFeynman-PaineMansionWoods1984_copyrightTamikoThiel_bw.jpg",
+                "alt": "Richard Feynman",
+                "is_static": false
+            }
         }
     ]
 }

@@ -1,0 +1,46 @@
+.first-name {
+    text-decoration: underline;
+}
+
+.name-heading {
+    font-size: 1.2em;
+}
+
+.small-heading {
+    font-size: 0.6em;
+}
+
+.tagline {
+    font-size: 0.7em;
+    background: linear-gradient(135deg, #05dde4 0%, #ff00a2 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.incomplete {
+    background-image: none;
+    background-clip: border-box;
+    -webkit-text-fill-color: initial;
+
+    color: #3f3f3f;
+    cursor: not-allowed;
+
+    &:hover {
+        color: #ff0000;
+    }
+}
+
+#about {
+    clip-path: none;
+    padding-bottom: 6.5%;
+}
+
+.row {
+    padding-left: 12%;
+}
+
+@media (max-width: 768px) {
+    .row {
+        padding-left: 0;
+    }
+}

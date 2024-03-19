@@ -1,61 +1,20 @@
-from django.shortcuts import render
-from django.http import HttpRequest #, HttpResponse
-
 import os
 import json
 
-# def root(request: HttpRequest):
-#     return HttpResponse("""
-#                         <span style="font-size: 20px; font-family: 'Arial'; font-weight: bold; color: #333;">
-#                             This is the root route, and is undefined.
-#                         </span>
+from django.shortcuts import render
+from django.http import HttpRequest #, HttpResponse
 
-#                         <br><br>
+from typing import Any
+from helpers import process_directory, replace_value
 
-#                         """
-#                         +
-                        
-#                         # <a href="/route/a/">Route A</a>
-#                         # <br>
-#                         # <a href="/route/b/">Route B</a>
-#                         # <br>
-#                         # <a href="/example/">Example</a>
-#                         # <br>
-#                         # <a href="/test/">Test</a>
-#                         # <br>
+parsed_base64_images = {}
 
-#                         """
-#                         <a href="/tribute/profile/">Test 2</a>
-#                         """)
+with open("data/images_b64.json", "r") as file:
+    parsed_base64_images = json.load(file)
 
-def process_directory(directory: str) -> dict[str, list[str]]:
-    # dictionary to store folder names as keys and JSON file names as values
-    folder_json_mapping: dict[str, list[str]] = {"dirs": []}
-
-    # Traverse through the directory
-    for root, _, files in os.walk(directory):
-        # Extract folder name
-        folder_name: str = os.path.basename(root)
-        # Initialize list for JSON files
-        json_files: list[str] = []
-        # Iterate through files in current directory
-        for file in files:
-            # Check if file is a JSON file
-            if file.endswith(".json"):
-                # Add JSON file name without extension to list
-                json_files.append(os.path.splitext(file)[0])
-        # Add folder name and corresponding JSON files to dictionary
-        folder_json_mapping[folder_name] = json_files
-        # Add folder name to "dirs" list
-        if folder_name != os.path.basename(directory):
-            folder_json_mapping["dirs"].append(folder_name)
-
-    return folder_json_mapping
-
-def root(request: HttpRequest):
+def serve_root(request: HttpRequest):
     directories: dict[str, list[str]] = process_directory("data")
 
-    # Formatting the context dictionary
     context = {
         'categories': [
             {'name': folder, 'names': directories[folder]} for folder in directories['dirs']
@@ -85,9 +44,20 @@ def root(request: HttpRequest):
 #     return render(request, 'static/templates/profile.html', context)
 
 # def test(request: HttpRequest):
-#     return render(request, 'static_test/test.html', {})
+#     return HttpResponse("This is a test view.")
 
-def profile(request: HttpRequest, occupation: str, filename: str):
+def serve_tribute_profile(request: HttpRequest, occupation: str, filename: str):
+    def predicate(value: Any) -> bool:
+        if isinstance(value, str):
+            return value.startswith("json:")
+        return False
+
+    def transformer(value: str) -> str:
+        return parsed_base64_images[value.removeprefix("json:")]
+    
+    def key_predicate(key: str) -> bool:
+        return key == "src" or key == "href"
+
     print(occupation, filename)
 
     file_path = os.path.join("data", occupation, f"{filename}.json")
@@ -99,5 +69,7 @@ def profile(request: HttpRequest, occupation: str, filename: str):
             context = json.load(file)
     except FileNotFoundError:
         return render(request, 'templates/404.html', {})
+
+    replace_value(context, predicate, transformer, key_check=True, key_predicate=key_predicate)
 
     return render(request, 'templates/profile.html', context)

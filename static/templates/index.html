@@ -1,23 +1,208 @@
+{% load static %}
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="sr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon shortcut" type="image/png" href="{% static 'profile/favicon.png' %}" />
+    <title>Index | 200</title>
+    <meta name="keywords" content="tribute page, srinivasa, skill" />
+    <meta name="description" content="[Your name here] | Developer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="{% static 'styles/index.css' %}" />
+    <link rel="stylesheet" href="{% static 'styles/style.css' %}" />
+    <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 
 <body>
-    {% for category in categories %}
-    <h1>{{ category.name }}</h1>
-    <ul>
-        {% for name in category.names %}
-        <li>
-            <a href="tribute/profile/{{ category.name }}/{{ name }}">{{ name }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-    {% endfor %}
+    <div id="top"></div>
+    <section id="hero" class="jumbotron">
+        <div class="container">
+            <h1 class="hero-title load-hidden">
+                <span class="name-heading">
+                    <span class="first-name">Index:</span>
+                    <span class="text-color-main">Tribute Page</span>
+                </span>
+
+                <br />
+
+                <span class="tagline">Here you reside forever and will be remembered forever.</span>
+            </h1>
+            <p class="hero-cta load-hidden">
+                <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">
+                    Take me to the Index
+                </a>
+                &nbsp;&nbsp;&nbsp;
+                <a rel="noreferrer" class="cta-btn cta-btn--hero" href="https://github.com/bilakshanp/tribute-page">
+                    Source Code
+                </a>
+            </p>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2 class="load-hidden section-title">Index</h2>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container text-center">
+            <div class="project-wrapper">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12">
+                    {% comment %} <div class="col-sm-12"> {% endcomment %}
+                        <div class="load-hidden project-wrapper__text">
+                            <h3 class="project-wrapper__text-title">Mathematicians</h3>
+                            <ul>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="tribute/profile/mathematicians/ramanujan"> Ramanujan </a>
+                                </li>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="tribute/profile/mathematicians/riemann"> Riemann </a>
+                                </li>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/mathematicians/euler"> Euler </a>
+                                </li>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/mathematicians/gauss"> Gauss </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="load-hidden project-wrapper__text">
+                            <h3 class="project-wrapper__text-title">Scientists</h3>
+                            <ul>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/scientists/tesla"> Tesla </a>
+                                </li>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="tribute/profile/scientists/einstein"> Einstein </a>
+                                </li>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/scientists/curie"> Curie </a>
+                                </li>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/scientists/bohr"> Bohr </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="load-hidden project-wrapper__text">
+                            <h3 class="project-wrapper__text-title">Politicians</h3>
+                            <ul>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/politicians/gandhi"> Mahatama Gandhi </a>
+                                </li>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/politicians/mandela"> Nelson Mandela </a>
+                                </li>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="tribute/profile/politicians/modi"> Narendra Modi </a>
+                                </li>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/politicians/obama"> Barack Obama </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12">
+                    {% comment %} <div class="col-sm-12"> {% endcomment %}
+                        <div class="load-hidden project-wrapper__text">
+                            <h3 class="project-wrapper__text-title">Authors</h3>
+                            <ul>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/authors/shakespeare"> Shakespeare </a>
+                                </li>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/authors/dickens"> Dickens </a>
+                                </li>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/authors/twain"> Twain </a>
+                                </li>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/authors/rowling"> Rowling </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="load-hidden project-wrapper__text">
+                            <h3 class="project-wrapper__text-title">Artists</h3>
+                            <ul>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/artists/leonardo"> Leonardo </a>
+                                </li>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/artists/michelangelo"> Michelangelo </a>
+                                </li>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/artists/vangogh"> Van Gogh </a>
+                                </li>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/artists/picasso"> Picasso </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="load-hidden project-wrapper__text">
+                            <h3 class="project-wrapper__text-title">Musicians</h3>
+                            <ul>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/musicians/beethoven"> Beethoven </a>
+                                </li>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/musicians/mozart"> Mozart </a>
+                                </li>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/musicians/elvis"> Elvis </a>
+                                </li>
+                                <li>
+                                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main incomplete" href="tribute/profile/musicians/jackson"> Jackson </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% comment %} <section id="contact">
+        <div class="container">
+            <h2 class="section-title">GitHub</h2>
+            <div class="contact-wrapper load-hidden">
+                <p class="contact-wrapper__text">About Us</p>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:example@email.com">Call
+                    to Action</a>
+            </div>
+        </div>
+    </section> {% endcomment %}
+    <footer class="footer navbar-static-bottom">
+        <div class="container">
+            <a rel="noreferrer" href="#top" class="back-to-top"> <i class="fa fa-2x fa-angle-up" aria-hidden="true"></i>
+            </a>
+            <div class="social-links">
+                <a rel="noreferrer" href="#!" target="_blank"> <i class="fa fa-inverse fa-twitter"></i> </a> <a
+                    rel="noreferrer" href="#!" target="_blank"> <i class="fa fa-inverse fa-linkedin"></i> </a>
+                <a rel="noreferrer" href="https://github.com/bilakshanp/tribute-page" target="_blank"> <i class="fa fa-github fa-inverse"></i> </a>
+            </div>
+            <hr />
+            <p class="footer__text">© 2024 - <a rel="noreferrer" href="#!" target="_blank"> BhaveshS & BilakshanP </a></p>
+        </div>
+    </footer>
+    <script defer type="module" src="{% static 'scripts/profile-index.js' %}"></script>
 </body>
 
 </html>

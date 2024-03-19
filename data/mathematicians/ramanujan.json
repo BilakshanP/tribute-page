@@ -8,11 +8,9 @@
     "tagline": "The Man Who Knew Infinity",
     "wikipedia": "https://en.wikipedia.org/wiki/Srinivasa_Ramanujan",
     "image": {
-        "main": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Srinivasa_Ramanujan-Add._MS_a94_version2.jpg",
-            "alt": "Ramanujan in 1920",
-            "is_static": false
-        }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Srinivasa_Ramanujan-Add._MS_a94_version2.jpg",
+        "alt": "Ramanujan in 1920",
+        "is_static": false
     },
     "data": {
         "summary": {

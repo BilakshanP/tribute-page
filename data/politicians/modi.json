@@ -8,11 +8,9 @@
     "tagline": "Prime Minister of India",
     "wikipedia": "https://en.wikipedia.org/wiki/Narendra_Modi",
     "image": {
-        "main": {
-            "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
-            "alt": "Narendra Modi",
-            "is_static": false
-        }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Official_Photograph_of_Prime_Minister_Narendra_Modi_Portrait.png",
+        "alt": "Narendra Modi",
+        "is_static": false
     },
     "data": {
         "summary": {
@@ -25,25 +23,20 @@
             "title": "Time and Place of Birth",
             "description": "Narendra Modi was born on 17 September 1950 in Vadnagar, a small town in Mehsana district, Bombay State (present-day Gujarat). His father, Damodardas Mulchand Modi, ran a tea stall, and his mother, Hiraben Modi, worked as a domestic helper.",
             "image": {
-                "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
+                "src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Narendra_Modi_and_Prime_Minister_Atal_Bihari_Vajpayee_in_New_Delhi_in_October_12%2C_2001.jpg",
                 "alt": "Narendra Modi",
                 "is_static": false
             }
         },
         {
             "title": "Education",
-            "description": "Modi completed his higher secondary education in Vadnagar and then graduated with a Bachelor of Arts degree from the University of Delhi. He worked for some time with the Rashtriya Swayamsevak Sangh (RSS), a Hindu nationalist organization, before joining politics full-time.",
-            "image": {
-                "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
-                "alt": "Narendra Modi",
-                "is_static": false
-            }
+            "description": "Modi completed his higher secondary education in Vadnagar and then graduated with a Bachelor of Arts degree from the University of Delhi. He worked for some time with the Rashtriya Swayamsevak Sangh (RSS), a Hindu nationalist organization, before joining politics full-time."
         },
         {
             "title": "Political Career",
             "description": "Modi joined the Bharatiya Janata Party (BJP) in 1987 and quickly rose through the ranks. He served as the Chief Minister of Gujarat from 2001 to 2014, during which he implemented several economic and social reforms. In 2014, he was elected as the Prime Minister of India, leading the BJP to a historic victory.",
             "image": {
-                "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/The_Chief_Minister_of_Gujarat_Shri_Narendra_Modi_calls_on_the_Prime_Minister_Dr._Manmohan_Singh_in_New_Delhi_on_June_30%2C_2004.jpg/330px-The_Chief_Minister_of_Gujarat_Shri_Narendra_Modi_calls_on_the_Prime_Minister_Dr._Manmohan_Singh_in_New_Delhi_on_June_30%2C_2004.jpg",
                 "alt": "Narendra Modi",
                 "is_static": false
             }
@@ -52,19 +45,14 @@
             "title": "Awards and Achievements",
             "description": "Modi has received several awards and accolades throughout his political career. These include being named one of Time magazine's 100 most influential people multiple times and receiving various honors from foreign governments.",
             "image": {
-                "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Modi_at_GNLU.jpg/270px-Modi_at_GNLU.jpg",
                 "alt": "Narendra Modi",
                 "is_static": false
             }
         },
         {
             "title": "Legacy",
-            "description": "Narendra Modi's legacy as Prime Minister of India is still evolving. He is known for his strong leadership, economic reforms, and initiatives such as 'Make in India' and 'Swachh Bharat Abhiyan'. His policies have sparked both praise and criticism, but his impact on Indian politics and society is undeniable.",
-            "image": {
-                "src": "https://wallpaper-house.com/data/out/8//wallpaper2you_211893.jpg",
-                "alt": "Narendra Modi",
-                "is_static": false
-            }
+            "description": "Narendra Modi's legacy as Prime Minister of India is still evolving. He is known for his strong leadership, economic reforms, and initiatives such as 'Make in India' and 'Swachh Bharat Abhiyan'. His policies have sparked both praise and criticism, but his impact on Indian politics and society is undeniable."
         }
     ]
 }
