@@ -28,8 +28,41 @@ import json
 #                         <a href="/tribute/profile/">Test 2</a>
 #                         """)
 
+def process_directory(directory: str) -> dict[str, list[str]]:
+    # dictionary to store folder names as keys and JSON file names as values
+    folder_json_mapping: dict[str, list[str]] = {"dirs": []}
+
+    # Traverse through the directory
+    for root, _, files in os.walk(directory):
+        # Extract folder name
+        folder_name: str = os.path.basename(root)
+        # Initialize list for JSON files
+        json_files: list[str] = []
+        # Iterate through files in current directory
+        for file in files:
+            # Check if file is a JSON file
+            if file.endswith(".json"):
+                # Add JSON file name without extension to list
+                json_files.append(os.path.splitext(file)[0])
+        # Add folder name and corresponding JSON files to dictionary
+        folder_json_mapping[folder_name] = json_files
+        # Add folder name to "dirs" list
+        if folder_name != os.path.basename(directory):
+            folder_json_mapping["dirs"].append(folder_name)
+
+    return folder_json_mapping
+
 def root(request: HttpRequest):
-    return render(request, 'static/templates/index.html', {})
+    directories: dict[str, list[str]] = process_directory("data")
+
+    # Formatting the context dictionary
+    context = {
+        'categories': [
+            {'name': folder, 'names': directories[folder]} for folder in directories['dirs']
+        ]
+    }
+
+    return render(request, 'static/templates/index.html', context)
 
 # def route_a(request: HttpRequest):
 #     context = {
@@ -65,6 +98,6 @@ def profile(request: HttpRequest, occupation: str, filename: str):
         with open(file_path, "r") as file:
             context = json.load(file)
     except FileNotFoundError:
-        return render(request, 'profile/404.html', {})
+        return render(request, 'templates/404.html', {})
 
-    return render(request, 'profile/index.html', context)
+    return render(request, 'templates/profile.html', context)

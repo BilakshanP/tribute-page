@@ -8,8 +8,16 @@
 </head>
 
 <body>
-    I am here
-    <a href="/tribute/profile/mathematicians/ramanujan">Click me</a>
+    {% for category in categories %}
+    <h1>{{ category.name }}</h1>
+    <ul>
+        {% for name in category.names %}
+        <li>
+            <a href="tribute/profile/{{ category.name }}/{{ name }}">{{ name }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
 </body>
 
 </html>
