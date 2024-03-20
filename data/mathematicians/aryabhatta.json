@@ -1,0 +1,49 @@
+{
+    "name": {
+        "title": "Aryabhatta",
+        "underlined": "",
+        "colored": "Aryabhatta"
+    },
+    "category": "Mathematician",
+    "tagline": "Discovering The Universe, One Calculation At A Time",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aryabhata",
+    "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/2064_aryabhata-crp.jpg/330px-2064_aryabhata-crp.jpg",
+        "alt": "Statue depicting Aryabhata on the grounds of IUCCA, Pune",
+        "is_static": false
+    },
+    "data": {
+        "summary": {
+            "p1": "Aryabhatta (476 - 550 CE) was the first of the major mathematician-astronomers from the classical age of Indian mathematics and Indian astronomy. His works include the Āryabhaṭīya (which mentions that in 3600 Kali Yuga, 499 CE, he was 23 years old) and the Arya-siddhanta.",
+            "p2": "Aryabhatta mentions in the Aryabhatiya that it was composed 3,600 years into the Kali Yuga, when he was 23 years old. This corresponds to 499 CE, and implies that he was born in 476. He died at the age of 74 after a long and fruitful career as mathematics, astronomer, and scientist. When and where he died are still unknown. In Kusumapura, Pataliputra, it was thought that he spent most of his time."
+        }
+    },
+    "life_awards_and_achievements": [
+        {
+            "title": "Education",
+            "description": "His upper-level study may have taken place in Kusumapura, and he may have resided in the region for quite some time, according to historical sources from the period. In fact, there has been some conjecture that the place known as Kusumapura might, in fact, be Pataliputra, which was the site of an important astronomical observatory."
+        },
+        {
+            "title": "Higher Education",
+            "description": "He traveled to Kusumapura for higher studies at some point and that he stayed there for a period of time. Bhaskara I (CE 629), a Hindu and Buddhist tradition, as well as historical records, all identify Kusumapura as Paaliputra, the contemporary city of Patna. Poemists have speculated that the university of Nalanda, situated in Pataliputra at the time, possessed an astronomical observatory, which suggests that Aryabhatta was also in charge of the university of Nalanda. Aryabhatta is also credited with establishing an observatory at the Sun Temple in Taregana, Bihar, which is still in use today."
+        },
+        {
+            "title": "Legacy: India's First Satellite",
+            "year": 1975,
+            "description": "India's first satellite Aryabhata and the lunar crater Aryabhata are both named in his honour, the Aryabhata satellite also featured on the reverse of the Indian 2-rupee note. An Institute for conducting research in astronomy, astrophysics and atmospheric sciences is the Aryabhatta Research Institute of Observational Sciences (ARIES) near Nainital, India. The inter-school Aryabhata Maths Competition is also named after him,[44] as is Bacillus aryabhata, a species of bacteria discovered in the stratosphere by ISRO scientists in 2009.",
+            "links": {
+                "reference": [
+                    {
+                        "text": "Aryabhata (Satellite)",
+                        "src": "https://en.wikipedia.org/wiki/Aryabhata_(satellite)"
+                    }
+                ]
+            },
+            "image": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Aryabhata_Satellite.jpg/450px-Aryabhata_Satellite.jpg",
+                "alt": "Image of Aryabhata Satellite",
+                "is_static": false
+            }
+        }
+    ]
+}

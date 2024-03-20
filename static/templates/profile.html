@@ -24,7 +24,9 @@
         <div class="container">
             <h1 class="hero-title load-hidden">
                 <span class="name-heading">
-                    <span class="first-name">{{ name.underlined }}</span>
+                    {% if name.colored %}
+                        <span class="first-name">{{ name.underlined }}</span>
+                    {% endif %}
                     <span class="text-color-main">{{ name.colored }}</span>
                 </span>
 
