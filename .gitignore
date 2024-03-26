@@ -160,3 +160,4 @@ cython_debug/
 test/
 logs/
 test.py
+staticfiles_build/
